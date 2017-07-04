@@ -519,7 +519,7 @@ nav a:hover{
 
     @media only screen and (max-width : 767px){
         .illustrated-list ul li{
-            padding: 60px 0;
+            padding: 30px 0;
         }
     }
 
@@ -549,23 +549,26 @@ nav a:hover{
             width: 80%;
             margin: 0 0;
         }
-    }
 
-.illustrated-list img.positioned-image{
-    max-width: 120%;
-    margin-left: -30%;
-}
-
-    @media only screen and (max-width : 767px){
-        .illustrated-list img.positioned-image{
-            margin-left: -70px;
-            max-width: 120%;
+        .small-illustrations{
+            display: none;
         }
     }
 
-.illustrated-list img.resized-image{
-    max-width: 100%;
-}
+    @media only screen and (max-width : 768px){
+        .illustrated-list img{
+            max-width: 50%;
+        }
+
+        .small-illustrations{
+            display: block;
+        }
+
+        .large-illustrations{
+            display: none;
+        }
+    }
+
 
 
 .talent-summary p{
@@ -1329,7 +1332,7 @@ div.content {
 }
 
 .sponsors{
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .sponsors h6{
@@ -1338,8 +1341,12 @@ div.content {
 }
 
 .sponsors img{
-    margin-left: -42px;
     max-width: 100%;
+    margin-top: 32px;
+}
+
+.numbers{
+    padding: 70px 0;
 }
 
 .numbers .col-quater{
@@ -1349,11 +1356,26 @@ div.content {
     height: 100%;
 }
 
+    @media only screen and (max-width : 768px){
+        .numbers .col-quater{
+            display: block;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 32px;
+        }
+    }
+
 .numbers h3{
     font-size: 48px;
     font-family: 'Roboto';
     font-weight: 100;
 }
+
+    @media only screen and (max-width : 768px){
+        .numbers h3{
+            font-size: 32px;
+        }
+    }
 
 .numbers h4{
     font-size: 13px;
