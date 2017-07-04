@@ -1219,6 +1219,12 @@ input:focus::-webkit-input-placeholder, select:focus::-webkit-input-placeholder 
     margin-bottom: 24px;
 }
 
+    @media only screen and (max-width: 960px) {
+        .page img{
+            max-width: 50%;
+        }
+    }
+
 .button-tabs svg{
     max-width: 30%;
 }
