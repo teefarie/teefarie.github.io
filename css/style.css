@@ -472,6 +472,7 @@ nav a:hover{
     @media only screen and (max-width : 768px){
         .hero .hero-content img{
             max-width: 100%;
+            margin-top: 56px;
         }
     }
 
@@ -563,6 +564,14 @@ nav a:hover{
         .small-illustrations{
             display: none;
         }
+
+        .process .col-half h3{
+            display: inline-block;
+        }
+
+        .mobile-text{
+            display: none;
+        }
     }
 
     @media only screen and (max-width : 768px){
@@ -576,6 +585,14 @@ nav a:hover{
 
         .large-illustrations{
             display: none;
+        }
+
+        .process .col-half h3{
+            display: none;
+        }
+
+        .mobile-text{
+            margin-bottom: 24px!important;
         }
     }
 
@@ -754,7 +771,7 @@ nav a:hover{
     font-size: 48px;
     line-height: 58px;
     color: #2a2a2a;
-    f/*ont-family: 'AvenirLTStd-Light';*/
+    font-family: 'AvenirLTStd-Light';
     font-weight: 300;
     margin-bottom: 12px;
 }
