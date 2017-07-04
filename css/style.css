@@ -352,7 +352,7 @@ nav a:hover{
     align-items: center;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .grid{
             display: block;
         }
@@ -374,13 +374,13 @@ nav a:hover{
         }
     }
 
-    @media only screen and (min-width: 600px){
+    @media only screen and (min-width: 768px){
         .col-half{
             width: 90%; 
         }
     }
 
-    @media only screen and (min-width: 768px){
+    @media only screen and (min-width: 769px){
         .col-half{
             width: 48%;
             text-align: left;
@@ -469,7 +469,7 @@ nav a:hover{
     max-width: 60%;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .hero .hero-content img{
             max-width: 100%;
         }
@@ -481,7 +481,7 @@ nav a:hover{
     margin-bottom: 24px;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .sub-text h3{
             font-size: 1.5em;
         }
@@ -522,7 +522,7 @@ nav a:hover{
     padding: 48px 0;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .illustrated-list ul li{
             padding: 30px 0;
         }
@@ -549,7 +549,7 @@ nav a:hover{
         }
     }
 
-    @media only screen and (min-width : 768px){
+    @media only screen and (min-width : 769px){
         .illustrated-list p{
             width: 80%;
             margin: 0 0;
@@ -584,7 +584,7 @@ nav a:hover{
 .talent-summary p{
 
 }
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .talent-summary .sub-text h3, .client-summary .sub-text h3{
             
             margin: 0 auto 24px auto;
@@ -634,7 +634,7 @@ nav a:hover{
     margin-top: 24px;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .testimonial .card{
             display: block;
             margin: 24px auto 0 auto;
@@ -723,7 +723,7 @@ nav a:hover{
     background: linear-gradient(to right, #fafafa, #f7f7f7);
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .call-to-action{
             padding: 0 0;
             background: linear-gradient(to bottom, #fafafa, #f7f7f7);
@@ -734,7 +734,7 @@ nav a:hover{
     padding: 200px 0 200px 0px;
 }
 
-     @media only screen and (max-width : 767px){
+     @media only screen and (max-width : 768px){
         .call-to-action .cta{
             padding: 100px 0 100px 0px;
         }
@@ -744,7 +744,7 @@ nav a:hover{
     padding: 200px 0 200px 100px;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .call-to-action .cta.cta-work{
             padding: 200px 0 200px 0px;
         }
@@ -772,7 +772,7 @@ nav a:hover{
     margin-bottom: 40px;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .call-to-action .cta p{
             width: 70%;
             margin: 0 auto 40px auto;
@@ -787,7 +787,7 @@ footer{
     padding: 80px 0;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         footer{
             padding: 40px 0;
         }
@@ -799,7 +799,7 @@ footer{
     height: 175px;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .col-quater{
             display: none;
         }
@@ -833,7 +833,7 @@ footer .copyright{
     padding-top: 8px;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         footer .copyright{
             border-top: none;
             /*width: 40%;
@@ -964,7 +964,7 @@ input:focus::-webkit-input-placeholder, select:focus::-webkit-input-placeholder 
             margin: 56px auto;
       }
     }
-    @media only screen and (min-width: 767px) {
+    @media only screen and (min-width: 768px) {
       .button-tabs .tabs{
             width: 652px;
             margin: 72px auto;
@@ -977,7 +977,7 @@ input:focus::-webkit-input-placeholder, select:focus::-webkit-input-placeholder 
   border: 1.5px solid #03A2DC;
 }
 
-    @media only screen and (min-width: 767px) {
+    @media only screen and (min-width: 768px) {
       .button-tabs .tabs > li {
           border-top: 1.5px solid #03A2DC;
           border-left: 1.5px solid #03A2DC;
@@ -1018,7 +1018,7 @@ input:focus::-webkit-input-placeholder, select:focus::-webkit-input-placeholder 
   font-weight: 700;
 }
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 768px) {
       .button-tabs .tab-title span {
           font-size: 10px;
         }
@@ -1066,7 +1066,7 @@ input:focus::-webkit-input-placeholder, select:focus::-webkit-input-placeholder 
   color: #222;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .button-tabs .tabs li {
     width: 49%;
     margin-bottom: 15px;
@@ -1185,7 +1185,7 @@ input:focus::-webkit-input-placeholder, select:focus::-webkit-input-placeholder 
     margin-bottom: 40px;
 }
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 768px) {
         .tab-content img{
             max-width: 100%;
             margin: 40px 0;
@@ -1285,7 +1285,7 @@ div.content {
     margin:0 18px 32px 0;
 }
 
-    @media only screen and (max-width : 767px){
+    @media only screen and (max-width : 768px){
         .big-cards{
             display: block;
             margin: 24px auto 0 auto;
@@ -1293,7 +1293,7 @@ div.content {
         }
     }
 
-    @media only screen and (min-width : 767px){
+    @media only screen and (min-width : 768px){
         .big-cards{
             height: 360px;
         }
