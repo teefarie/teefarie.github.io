@@ -9,8 +9,14 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
+    <header>
         <div class="wrapper">
+            <ul class="menu">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
             <div class="logo">
                 <div class="icon">
                     <a href="/">
@@ -19,21 +25,19 @@
                 </div>
             </div>
         
-            <div class="navigation">
-                <nav class="main">
-                    <ul>
-                        <li><a href="clients.html" class="active">Clients</a></li>
-                        <li><a href="talent.html" >Talent</a></li>
-                        <li><a href="community.html">Community</a></li>
-                        <li><a href="about.html">About</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav>
+                <ul>
+                    <li><a href="clients.html" class="active">Clients</a></li>
+                    <li><a href="talent.html">Talent</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <div class="header-action">
+                        <a class="button stroked-button" href="">Start a project</a>
+                    </div>
+                </ul>
 
-            <div class="header-action">
-                <a class="button stroked-button" href="">Start a project</a>
-            </div>
-        </div>    
+            </nav>        
+        </div>
     </header>
 
     <section class="hero bg-light">
@@ -283,5 +287,12 @@
             </div> 
         </div>
     </footer>
+
+    <script type="text/javascript">
+        $('.menu').click(function () {
+            $('.menu').toggleClass('on', function () {});
+            $('nav').slideToggle(400, function () {});
+        });
+    </script>
 </body>
 </html>

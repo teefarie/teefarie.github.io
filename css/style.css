@@ -137,95 +137,6 @@ p{
 }
 
 /***header***/
-/*header{
-    width:96%;
-    padding:.4em 2%;
-    line-height:0;
-    background:#fff;
-    border-bottom:1px solid #c9cdd0
-}
-.menu{
-    display:none;
-    width:50px;
-    height:34px;
-  padding:1em
-}
-    @media only screen and (max-width: 959px) {
-        .menu{
-            display:block;
-            width:46px;
-        }
-    }
-.menu:hover{
-    cursor:pointer
-}
-.menu li{
-    list-style:none;
-    margin:5px 0;
-    width:50px;
-    height:6px;
-    background:#949494
-}
-.on{
-    transform:rotate(90deg);
-    -ms-transform:rotate(90deg);
-    -webkit-transform:rotate(90deg)
-}
-.on li{
-    background:#ddd
-}
-.on li:first-child, .on li:last-child{
-    width:36px
-}
-nav{
-    padding:.2em 0;
-    font:1em sans-serif
-}
-    @media only screen and (max-width: 959px) {
-        nav{
-            width:96%;
-            display:none;
-            position:absolute;
-            background:#fff
-        }
-    }
-    @media only screen and (min-width: 960px) {
-        nav{
-            display:block!important;
-        }
-    }
-nav ul li{
-    display:inline-block;
-    margin:0 .8em;
-    line-height:2;
-}
-    @media only screen and (max-width: 959px) {
-        nav ul li{
-            display:block;
-            margin:.6em .8em!important;
-            border-bottom:1px solid #ccc
-        }
-    }
-nav ul li:first-child{
-    margin:0 .8em 0 0
-}
-nav ul li:last-child{
-    margin:0 0 0 .8em
-}
-  @media only screen and (max-width: 959px) {
-      nav ul li:last-child{border:none}
-  }
-nav a{
-    display:block;
-    color:#a40348;
-    text-decoration:none;
-    text-transform:uppercase
-}
-nav a:hover{
-    color:#999
-}*/
-
-
 .header {
     width: 100%;
     position: fixed;
@@ -238,7 +149,7 @@ nav a:hover{
 }
 
 
-.header .logo, .copyright .logo{
+.logo, .copyright .logo{
     cursor: pointer;
     padding-top: 1.25em;
     float: left;
@@ -249,19 +160,19 @@ nav a:hover{
 }
 
     @media screen and (min-width: 320px){
-        .header .logo .icon img, .copyright .logo .icon img {
+        .logo .icon img, .copyright .logo .icon img {
             max-width: 70%;
             width: 40px;
         }
     }
 
     @media screen and (min-width: 768px){
-        .header .logo .icon img, .copyright .logo .icon img  {
+        .logo .icon img, .copyright .logo .icon img  {
             max-width: 80%;
         }
     }
 
-.header .logo .icon span, .copyright .logo .icon span{    
+.logo .icon span, .copyright .logo .icon span{    
     float: right;
     line-height: 40px;
     padding: 1px 40px 0 12px;
@@ -270,56 +181,12 @@ nav a:hover{
     font-size: 0.9375em;
 }    
 
-.menu{
-    display:none;
-    width:50px;
-    height:34px;
-    padding:1em
-}
-    @media only screen and (max-width: 640px) {
-        .menu{
-            display:block;
-            width:46px;
-        }
-    }
-
-.menu li{
-    margin: 5px 0;
-    width: 40px;
-    height: 4px;
-    background: #808080;
-}
-
-.menu, .menu li{
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out
-}
-
-.on li{
-    background:#ddd;
-}
-
-.on li:first-child, .on li:last-child{
-    width:36px
-}
-
 .header .navigation ul, .copyright .navigation ul{
     width: 100%;
     padding: 0;
     max-width: 960px;
     margin: 0 auto;
 }
-
-    @media screen and (max-width: 959px){
-        .header .navigation ul{
-            display: none;
-            position:absolute;
-            width:96%;
-            background:#fff
-        }
-    }
 
     @media screen and (max-width: 960px){
         .header .navigation ul{
@@ -347,24 +214,6 @@ nav a:hover{
     cursor: pointer;
     text-transform: uppercase;
 }
-    @media only screen and (max-width: 959px) {
-        .header .navigation li{
-            display:block;
-            margin:.6em .8em!important;
-            border-bottom:1px solid #ccc
-        }
-    }
-
-.header .navigation li:first-child{
-    margin:0 .8em 0 0
-}
-.header .navigation li:last-child{
-    margin:0 0 0 .8em
-}
-  @media only screen and (max-width: 959px) {
-      .header .navigation li:last-child{border:none}
-  }
-
 
 .header .navigation li a.active{
     color: #03A2DC;
@@ -375,18 +224,116 @@ nav a:hover{
     color: #03A2DC;
 }
 
-
-.header .header-action{
-    float: right;
-    padding-top: 2.15em;
-}
-
-    @media screen and (max-width: 990px){
-        .header .header-action{
-            display: none;
+    @media screen and (min-width: 959px){
+        nav ul .header-action{
+            float: right;
+            padding-top: 1em;
         }
     }
-  
+
+    @media screen and (max-width: 959px){
+        nav ul .header-action{
+            width: 190px;
+            margin-top: 24px;
+            margin-left: .8em;
+        }
+    }
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background: #fff;
+    z-index: 9999;
+    transition: top 0.4s ease-in-out;
+}
+
+.menu{
+    display:none;
+    width:50px;
+    height:34px;
+    padding:1em
+}
+
+    @media only screen and (max-width: 959px) {
+        .menu{
+            display:inline-block;
+            width:46px;
+            float: right;
+            margin-top: 10px;
+        }
+    }
+
+.menu:hover{
+    cursor:pointer
+}
+
+.menu li{
+    list-style:none;
+    margin:5px 0;
+    width:32px;
+    height:4px;
+    background:#808080;
+}
+
+.on li:first-child, .on li:last-child{
+    width:32px
+}
+
+nav{
+    padding:.2em 0;
+    font:1em sans-serif
+}
+    @media only screen and (max-width: 959px) {
+        nav{
+            width:96%;
+            display:none;
+            position:absolute;
+            background:#fff;
+            margin-top: 64px;
+            padding-bottom: 32px;
+        }
+    }
+
+    @media only screen and (min-width: 960px) {
+        nav{
+            display:block!important;
+        }
+    }
+
+nav ul li{
+    display:inline-block;
+    padding-right: 60px;   
+    font-size: .75em;
+    line-height: 80px;
+    margin:0 .8em 0 0
+}
+    @media only screen and (max-width: 959px) {
+        nav ul li{
+            display:block;
+            margin:.6em .8em!important;
+            border-bottom:1px solid #ccc;
+            line-height: 60px;
+        }
+    }
+
+nav a{
+    display:block;
+    color:#808080;
+    text-decoration:none;
+    text-transform:uppercase
+}
+
+nav a.active{
+    color: #03A2DC;
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: #03A2DC;
+}
 
 .hero{
     padding-top: 100px;
@@ -1331,7 +1278,7 @@ div.content {
 
     @media only screen and (max-width : 420px){
         .big-cards{
-            width: 90%;
+            width: 100%;
         }
     }
 
