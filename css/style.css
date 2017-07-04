@@ -274,8 +274,8 @@ header{
     list-style:none;
     margin:5px 0;
     width:32px;
-    height:4px;
-    background:#808080;
+    height:3px;
+    background: #999;
 }
 
 .on li:first-child, .on li:last-child{
@@ -1352,12 +1352,12 @@ div.content {
 
 .numbers h3{
     font-size: 48px;
-    font-family: 'AvenirLTStd-Light';
-    font-weight: 300;
+    font-family: 'Roboto';
+    font-weight: 100;
 }
 
 .numbers h4{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .value svg{
