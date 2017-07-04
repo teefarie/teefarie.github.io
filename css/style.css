@@ -1214,6 +1214,11 @@ input:focus::-webkit-input-placeholder, select:focus::-webkit-input-placeholder 
     color: #2a2a2a;
 }
 
+.page img{
+    max-width: 20%;
+    margin-bottom: 24px;
+}
+
 .button-tabs svg{
     max-width: 30%;
 }
@@ -1259,6 +1264,7 @@ ul.tabs li:hover {
 
 .page h2{
     font-size: 24px;
+    margin-bottom: 12px;
 }
 
 
