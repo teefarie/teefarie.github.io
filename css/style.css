@@ -550,6 +550,11 @@ nav a:hover{
             margin: 0 0;
         }
 
+        .illustrated-list img{
+            max-width: 70%;
+        }
+
+
         .small-illustrations{
             display: none;
         }
