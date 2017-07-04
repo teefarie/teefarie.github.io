@@ -41,13 +41,14 @@ h1, h2, h3{
 
 h1{
     margin-bottom: 24px;
+    /*font-family: 'AvenirLTStd-Light';*/
 }
 
 p{
     color: #808080;
     font-size: 1.125em;
     line-height: 1.8125em;
-    font-family: '';
+    font-family: 'AvenirLTStd-Book';
 }
 
     @media (max-width: 768px) {
