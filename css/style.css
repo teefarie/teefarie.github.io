@@ -2,7 +2,7 @@
 @import 'reset.css';
 
 body {
-    font-family: "CircularStd-Book", sans-serif;
+    font-family: "AvenirLTStd-Book", sans-serif;
     font-size: 1em;
     color: #808080;
     background-color: #fff;
@@ -36,17 +36,18 @@ section{
 
 h1, h2, h3{
     color: #2a2a2a;
+    font-family: "CircularStd-Book", sans-serif;
 }
 
 h1{
     margin-bottom: 24px;
-    /*font-family: 'AvenirLTStd-Light';*/
 }
 
 p{
     color: #808080;
     font-size: 1.125em;
     line-height: 1.8125em;
+    font-family: '';
 }
 
     @media (max-width: 768px) {
