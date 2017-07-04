@@ -288,7 +288,7 @@ nav{
 }
     @media only screen and (max-width: 959px) {
         nav{
-            width:96%;
+            width:94%;
             display:none;
             position:absolute;
             background:#fff;
@@ -328,7 +328,6 @@ nav a{
 
 nav a.active{
     color: #03A2DC;
-    font-weight: 700;
 }
 
 nav a:hover{
