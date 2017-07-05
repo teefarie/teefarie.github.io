@@ -293,12 +293,12 @@ nav{
 }
     @media only screen and (max-width: 959px) {
         nav{
-            width:94%;
             display:none;
             position:absolute;
             background:#fff;
             margin-top: 64px;
             padding-bottom: 32px;
+            width: 100%;
         }
     }
 
@@ -316,10 +316,13 @@ nav ul li{
     margin:0 .8em 0 0
 }
     @media only screen and (max-width: 959px) {
+        nav ul{
+        }
+
         nav ul li{
             display:block;
             margin:.6em .8em!important;
-            border-bottom:1px solid #ccc;
+            /*border-bottom:1px solid #ccc;*/
             line-height: 60px;
         }
     }
