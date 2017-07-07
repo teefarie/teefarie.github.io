@@ -416,7 +416,7 @@ nav a:hover{
 
     @media only screen and (min-width: 769px){
         .col-half{
-            width: 48%;
+            width: 50%;
             text-align: left;
             margin: 0;
         }
@@ -441,6 +441,12 @@ nav a:hover{
         }
     }
 
+    @media only screen and (min-width : 769px){
+        .hero .hero-content{
+            margin-top: 100px;
+        }
+    }
+
 .hero .hero-content h1{
     font-size: 4em;
     line-height: 1.2em;
@@ -448,7 +454,6 @@ nav a:hover{
     /*font-family: 'AvenirLTStd-Light';*/
     font-weight: 300;
     margin-bottom: 24px;
-    margin-top: 100px;
 }
 
 
@@ -861,7 +866,6 @@ footer{
 .col-quater{
     width: 20%;
     margin-bottom: 64px;
-    height: 175px;
 }
 
     @media only screen and (max-width : 768px){
@@ -936,8 +940,8 @@ footer .col-quater ul li a:hover, footer .copyright li a:hover{
             clear: both;
             float: none;
             display: block;
-            line-height: 48px;
-            padding-top: 0px;
+            line-height: 1.6;
+            padding-top: 5px;
         }
 
         .copyright .logo .icon img,.copyright .logo .icon span  {
