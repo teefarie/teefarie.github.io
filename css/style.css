@@ -1721,3 +1721,7 @@ div.content {
 .col-center{
     text-align: center;
 }
+
+.col-center img{
+    max-width: 50%;
+}
