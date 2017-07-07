@@ -31,3 +31,15 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+@font-face {
+  font-family: 'ArticulatCFv2-Text';
+  src: url('fonts/ArticulatCFv2-Text.eot?#iefix') format('embedded-opentype'),  
+       url('fonts/ArticulatCFv2-Text.otf')  format('opentype'),
+       url('fonts/fonts/ArticulatCFv2-Text.woff') format('woff'), 
+       url('fonts/ArticulatCFv2-Text.ttf')  format('truetype'), 
+       url('fonts/ArticulatCFv2-Text.svg#ArticulatCFv2-Text') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
