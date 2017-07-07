@@ -521,7 +521,7 @@ nav a:hover{
     @media only screen and (max-width : 768px){
         .hero .hero-content img{
             max-width: 80%;
-            margin-top: 56px;
+            margin: 56px auto 0 auto;
         }
     }
 
