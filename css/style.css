@@ -505,7 +505,8 @@ nav a:hover{
     }
 
 .hero .hero-content img{
-    max-width: 150%;
+    /*max-width: 150%;*/
+    max-width: 130%;
 }
 
 .hero .hero-content .centered-text img{
@@ -605,7 +606,7 @@ nav a:hover{
         }
 
         .illustrated-list img{
-           max-width: 40%;
+           max-width: 35%;
         }
 
         .small-illustrations{
@@ -1719,8 +1720,4 @@ div.content {
 
 .col-center{
     text-align: center;
-}
-
-.col-center img{
-    max-width: 40%!important;
 }
