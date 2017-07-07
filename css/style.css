@@ -605,7 +605,7 @@ nav a:hover{
         }
 
         .illustrated-list img{
-           max-width: 30%;
+           max-width: 40%;
         }
 
         .small-illustrations{
@@ -1722,5 +1722,5 @@ div.content {
 }
 
 .col-center img{
-    max-width: 30%!important;
+    max-width: 40%!important;
 }
