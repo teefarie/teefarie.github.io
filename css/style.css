@@ -193,7 +193,7 @@ p{
     margin: 0 auto;
 }
 
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 993px){
         .header .navigation ul{
             display:block!important;
         }
@@ -208,7 +208,7 @@ p{
     cursor: default;
 }
 
-    @media only screen and (min-width: 959px) {
+    @media only screen and (min-width: 992px) {
         .header .navigation li, .copyright .navigation li{
             float: left;
         }
@@ -235,7 +235,7 @@ nav ul .header-action a.login{
   /*color: #03A2DC;*/
 }
 
-    @media screen and (min-width: 959px){
+    @media screen and (min-width: 992px){
         nav ul .header-action{
             float: right;
             padding-top: 1em;
@@ -246,7 +246,7 @@ nav ul .header-action a.login{
         }
     }
 
-    @media screen and (max-width: 959px){
+    @media screen and (max-width: 992px){
         nav ul .header-action{
             width: 190px;
             margin-top: 24px;
@@ -280,7 +280,7 @@ header{
     padding:1em
 }
 
-    @media only screen and (max-width: 959px) {
+    @media only screen and (max-width: 992px) {
         .menu{
             display:inline-block;
             width:46px;
@@ -309,7 +309,7 @@ nav{
     padding:.2em 0;
     font:1em sans-serif
 }
-    @media only screen and (max-width: 959px) {
+    @media only screen and (max-width: 992px) {
         nav{
             display:none;
             position:absolute;
@@ -320,7 +320,7 @@ nav{
         }
     }
 
-    @media only screen and (min-width: 960px) {
+    @media only screen and (min-width: 993px) {
         nav{
             display:block!important;
         }
@@ -334,7 +334,7 @@ nav ul li{
     margin:0 .8em 0 0;
     letter-spacing: 1px;
 }
-    @media only screen and (max-width: 959px) {
+    @media only screen and (max-width: 992px) {
         nav ul{
         }
 
@@ -570,6 +570,11 @@ nav a:hover{
         .illustrated-list h3{
             font-size: 24px;
         }
+
+        .illustrated-list p{
+            width: 80%;
+            margin: 0 auto;
+        }
     }
 
     @media only screen and (min-width : 769px){
@@ -635,7 +640,7 @@ nav a:hover{
         }
 
         .client-summary img.tall-logo{
-            margin: 80px 0 40px;
+            margin: 80px 0 0px;
         }
 
         .talent-summary img{
@@ -681,7 +686,7 @@ nav a:hover{
         }
     }
 
-    @media only screen and (max-width : 420px){
+    @media only screen and (max-width : 990px){
         .testimonial .card{
             width: 90%;
         }
@@ -1319,13 +1324,17 @@ div.content {
 }
 
 .little-card{
-    border: 1px solid #eee;
-    background-color: #fff;
-    width: 250px;
+    /*border: 1px solid #eee;*/
+    background-color: #fafafa;
+    width: 180px;
     display: inline-block;
     margin-right: 24px;
     padding: 16px;
     margin-top: 24px;
+}
+
+.little-card p{
+    font-size: 1em;
 }
 
 .big-cards{
@@ -1351,7 +1360,7 @@ div.content {
         }
     }
 
-    @media only screen and (max-width : 420px){
+    @media only screen and (max-width : 990px){
         .big-cards{
             width: 100%;
         }
@@ -1470,19 +1479,19 @@ div.content {
 
 /******About us******/
 
-.about h1{
+.about h1, .faster-horse h1{
     width: 70%;
 }
 
      @media only screen and (max-width : 768px){
-        .about h1{
+        .about h1, .faster-horse h1{
             width: 90%;
             margin: 0 auto;
             text-align: center;
         }
     }
 
-.about p{
+.about p, .faster-horse p{
     width: 90%;
 }
 
@@ -1598,7 +1607,25 @@ div.content {
 
 /****Testing****/
 
-/*.uk-grid {
+.uk-container-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1220px){
+    .uk-container {
+        max-width: 1200px;
+        padding: 0 35px;
+    }
+}
+
+.uk-container {
+    box-sizing: border-box;
+    max-width: 980px;
+    padding: 0 25px;
+}
+
+.uk-grid {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -1612,6 +1639,17 @@ div.content {
 
 .uk-grid {
     margin-left: -25px;
+}
+
+.uk-grid h3{
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.uk-grid p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-top: 15px;
 }
 
 @media (min-width: 1220px){
@@ -1704,19 +1742,20 @@ div.content {
     align-items: center;
 }
 
-@media (min-width: 768px){
-    .uk-width-medium-1-2, .uk-width-medium-2-4, .uk-width-medium-3-6, .uk-width-medium-5-10 {
-        width: 50%;
-    }
-}
-
 @media (min-width: 480px){
     .uk-width-small-1-1 {
         width: 100%;
     }
 }
 
-[class*=uk-width] {
+@media (min-width: 768px){
+    .uk-width-medium-1-2, .uk-width-medium-2-4, .uk-width-medium-3-6, .uk-width-medium-5-10 {
+        width: 50%;
+    }
+}
+
+
+/*[class*=uk-width] {
     box-sizing: border-box;
     width: 100%;
 }
@@ -1737,6 +1776,12 @@ div.content {
     flex: none;
     margin: 0;
     float: left;
+}*/
+
+@media only screen and (min-width: 1024px){
+    .summary__item__content p {
+        padding-right: 25%;
+    }
 }
 
 @media only screen and (min-width: 768px){
@@ -1747,4 +1792,4 @@ div.content {
 
 .uk-grid>*>:last-child {
     margin-bottom: 0;
-}*/
+}
