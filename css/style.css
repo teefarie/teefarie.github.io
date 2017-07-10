@@ -889,7 +889,12 @@ footer .col-quater ul h4{
 }
 
 footer .col-quater ul li{
-    margin-bottom: 5px;
+    /*margin-bottom: 5px;*/
+    color: #9a9a9a;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    padding-bottom: .25rem;
+    padding-top: .25rem;
 }
 
 footer .col-quater ul li a{
@@ -927,7 +932,7 @@ footer .copyright li a{
 
 
 footer .col-quater ul li a:hover, footer .copyright li a:hover{
-    color: #03A2DC;
+    text-decoration: underline;
 }
 
 .copy{
@@ -1506,15 +1511,34 @@ div.content {
 
 .about h1, .faster-horse h1{
     width: 70%;
+    font-size: 3.5em!important;
+    padding-top: 50px;
 }
 
-     @media only screen and (max-width : 768px){
+    @media only screen and (max-width : 768px){
         .about h1, .faster-horse h1{
             width: 90%;
             margin: 0 auto;
             text-align: center;
         }
     }
+
+    @media only screen and (max-width : 991px){
+        .about h1{
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+.about p{
+    width: 90%;
+    margin-bottom: 24px;
+}
+
+.about p strong{
+    color: #2a2a2a;
+}
 
 .about p, .faster-horse p{
     width: 90%;
@@ -1859,6 +1883,9 @@ div.content {
     width: 100%;
     line-height: 1.4;
     font-weight: 300;
+    font-size: 18px;
+    color: #3d464d;
+    line-height: 30px;
 }
 
 .dropbox-2015 .media-text--horizontal .media-text__header, .dropbox-2015 .media-text--horizontal .media-text__body {
