@@ -53,13 +53,14 @@ p{
     color: #808080;
     font-size: 1.125em;
     line-height: 1.8125em;
-    font-family: "Akkurat";
+    font-family: 'Akkurat-Light', sans-serif;
 }
 
     @media (max-width: 768px) {
       p {
         font-size: 1em;
         line-height: 1.5em;
+        font-family: "Akkurat", sans-serif;
       }
     }
 
