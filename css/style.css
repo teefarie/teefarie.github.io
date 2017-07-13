@@ -2,7 +2,7 @@
 @import 'reset.css';
 
 body {
-    font-family: "AvenirLTStd-Book", sans-serif;
+    font-family: "Akkurat", sans-serif;
     font-size: 1em;
     letter-spacing: .5px;
     color: #808080;
@@ -53,7 +53,7 @@ p{
     color: #808080;
     font-size: 1.125em;
     line-height: 1.8125em;
-    font-family: 'AvenirLTStd-Book';
+    font-family: "Akkurat";
 }
 
     @media (max-width: 768px) {
@@ -696,7 +696,8 @@ nav ul .header-action a.login{
 }
 
 .client-summary img.tall-logo{
-    
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
     @media only screen and (max-width : 768px){
