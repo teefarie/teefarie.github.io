@@ -2073,6 +2073,10 @@ div.content {
         display: none;
     }
 
+    p.media-text__body.mobile-copy{
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 993px){
@@ -2114,6 +2118,10 @@ div.content {
 
     .media-text--horizontal .media-text__header {
         padding-bottom: 0;
+    }
+
+    p.media-text__body.large-copy{
+        display: none;
     }
 }
 
