@@ -2061,6 +2061,14 @@ div.content {
         height: 0;
         width: 0;
     }
+
+    .media-text--horizontal .media-text__media img {
+        margin: 0 0 0;
+    }
+
+    .media-text--horizontal .media-text__header {
+        padding-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 600px){
