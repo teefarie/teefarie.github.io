@@ -735,6 +735,11 @@ nav ul .header-action a.login{
 .testimonial{
     padding: 80px 0 0;
 }
+    @media only screen and (max-width : 768px){
+        .testimonial{
+            padding: 0 0 0;
+        }
+    }
 
 .testimonial.centered{
     padding: 30px 0 0;
@@ -1016,6 +1021,7 @@ footer .col-quater ul li a:hover, footer .copyright li a:hover{
 .copy h5{
     color: #9a9a9a;
     font-family: 'Akkurat-Light', sans-serif;
+    font-weight: normal;
 }
 
     @media only screen and (max-width : 768px){
