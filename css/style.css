@@ -944,6 +944,7 @@ footer .col-quater ul li{
     /*margin-bottom: 5px;*/
     color: #808080;
     font-size: .8125rem;
+    font-family: 'Akkurat-Light', sans-serif;
     line-height: 1.25rem;
     padding-bottom: .25rem;
     padding-top: .25rem;
@@ -952,6 +953,7 @@ footer .col-quater ul li{
 footer .col-quater ul li a{
     color: #808080;
     font-size: 14px;
+    font-family: 'Akkurat-Light', sans-serif;
 }
 
 footer .copyright{
@@ -979,6 +981,7 @@ footer .copyright{
 footer .copyright li a{
     color: #9a9a9a;
     font-size: 14px;
+    font-family: 'Akkurat-Light', sans-serif;
     padding-right: 0px;
 }
 
@@ -994,6 +997,7 @@ footer .col-quater ul li a:hover, footer .copyright li a:hover{
 
 .copy h5{
     color: #9a9a9a;
+    font-family: 'Akkurat-Light', sans-serif;
 }
 
     @media only screen and (max-width : 750px){
