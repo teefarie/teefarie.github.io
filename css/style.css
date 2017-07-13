@@ -853,7 +853,7 @@ nav ul .header-action a.login{
 
      @media only screen and (max-width : 768px){
         .call-to-action .cta{
-            padding: 100px 0 100px 0px;
+            padding: 100px 0px 100px 0px;
         }
     }
 
