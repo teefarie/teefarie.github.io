@@ -243,7 +243,7 @@ nav ul li{
     font-weight: 400;
     text-decoration: none;
     max-width: 151px;
-    padding: 24px 28px 0;
+    padding: 28px 28px 0;
 }
     
     @media only screen and (max-width: 992px) {
@@ -259,9 +259,15 @@ nav a{
     display:block;
     color:#808080;
     text-decoration:none;
-    font-family: "Akkurat", sans-serif;
+    font-family: "Akkurat-Light", sans-serif;
         
 }
+
+     @media only screen and (max-width: 992px) {
+        nav a{
+            font-family: "Akkurat", sans-serif;
+        }
+    }
 
 nav a.active{
     color: #03A2DC;
