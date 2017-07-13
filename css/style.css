@@ -247,7 +247,6 @@ nav ul li{
 }
     
     @media only screen and (max-width: 992px) {
-
         nav ul li{
             display:block;
             margin:.6em 0!important;
@@ -260,7 +259,7 @@ nav a{
     display:block;
     color:#808080;
     text-decoration:none;
-    font-weight: 300;
+    font-family: "Akkurat", sans-serif;
         
 }
 
@@ -773,6 +772,7 @@ nav ul .header-action a.login{
 .testimonial .card p{
    font-size: 16px;
    line-height: 29px;
+    height: 120px;
 }
 
 .testimonial-info{
@@ -950,11 +950,24 @@ footer .col-quater ul li{
     padding-top: .25rem;
 }
 
+    @media only screen and (max-width : 768px){
+        footer .col-quater ul li{
+            font-family: 'Akkurat', sans-serif;
+        }
+    }
+
+
 footer .col-quater ul li a{
     color: #808080;
     font-size: 14px;
     font-family: 'Akkurat-Light', sans-serif;
 }
+
+    @media only screen and (max-width : 768px){
+        footer .col-quater ul li a{
+            font-family: 'Akkurat', sans-serif;
+        }
+    }
 
 footer .copyright{
     border-top: 1px solid #eee;
@@ -985,6 +998,11 @@ footer .copyright li a{
     padding-right: 0px;
 }
 
+    @media only screen and (max-width : 768px){
+        footer .copyright li a{
+            font-family: 'Akkurat', sans-serif;
+        }
+    }
 
 footer .col-quater ul li a:hover, footer .copyright li a:hover{
     text-decoration: underline;
@@ -999,6 +1017,12 @@ footer .col-quater ul li a:hover, footer .copyright li a:hover{
     color: #9a9a9a;
     font-family: 'Akkurat-Light', sans-serif;
 }
+
+    @media only screen and (max-width : 768px){
+        .copy h5{
+            font-family: 'Akkurat', sans-serif;
+        }
+    }
 
     @media only screen and (max-width : 750px){
         .copyright .logo, .copyright .navigation li, .copy{
