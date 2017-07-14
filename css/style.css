@@ -1349,6 +1349,12 @@ div.content {
     display: inline-block;
 }
 
+    @media only screen and (max-width: 480px){
+        .little-card{
+            padding: 0px;
+        }
+    }
+
 .little-card img{
     max-width: 20%;
 }
