@@ -1002,11 +1002,15 @@ footer .copyright{
         }
     }
 
+.copyright .navigation li{
+    font-size: 0.83em;
+}
+
 footer .copyright li a{
     color: #9a9a9a;
-    font-size: 14px;
     font-family: 'Akkurat-Light', sans-serif;
     padding-right: 0px;
+
 }
 
     @media only screen and (max-width : 768px){
@@ -1028,6 +1032,7 @@ footer .col-quater ul li a:hover, footer .copyright li a:hover{
     color: #9a9a9a;
     font-family: 'Akkurat-Light', sans-serif;
     font-weight: normal;
+    font-size: 0.83em;
 }
 
     @media only screen and (max-width : 768px){
@@ -1339,17 +1344,17 @@ ul.tabs li {
   -o-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-  color: #03A2DC;
+  color: #32ad75;
 }
 
 ul.tabs li.selected {
-    background:  #03A2DC;
+    background: #32ad75;
     color: #fff;
 }
 
 ul.tabs li:hover {
   cursor: pointer;
-  background:  #03A2DC;
+  background:  #32ad75;
   color: #fff;
 }
 
