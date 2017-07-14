@@ -701,7 +701,7 @@ nav ul .header-action a.login{
 
 }
 
-.client-summary img.tall-logo{
+.client-summary img.tall-logo, .partners{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
