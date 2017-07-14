@@ -1328,10 +1328,16 @@ div.content {
 }
 
 .logo-list img{
-    max-width: 100%;
-     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    max-width: 70%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+    
+    @media only screen and (max-width: 768px){
+        .logo-list img{
+            max-width: 90%;
+        }
+    }
 
 .little-card{
     /*border: 1px solid #eee;
