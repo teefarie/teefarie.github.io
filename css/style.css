@@ -701,7 +701,7 @@ nav ul .header-action a.login{
 
 }
 
-.client-summary img.tall-logo, .partners{
+.client-summary img.tall-logo{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
@@ -1503,9 +1503,10 @@ div.content {
 }
 
 .sponsors img{
-    max-width: 85%;
-    margin-left: 10%;
+    max-width: 95%;
     margin-top: 32px;
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .numbers{
