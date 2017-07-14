@@ -1386,6 +1386,8 @@ div.content {
 
 .logo-list img{
     max-width: 100%;
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .little-card{
@@ -1505,7 +1507,7 @@ div.content {
 .sponsors img{
     max-width: 95%;
     margin-top: 32px;
-     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
