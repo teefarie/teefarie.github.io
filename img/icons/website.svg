@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>website</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-333.000000, -324.000000)" stroke="#222829" stroke-width="2">
+            <g id="website" transform="translate(333.000000, 324.000000)">
+                <g id="Group-4" transform="translate(0.000000, 0.988800)">
+                    <path d="M0,62.0112 L64,62.0112" id="Stroke-2"></path>
+                    <polyline id="Stroke-3" points="4 62.0112 4 0.0112 60 0.0112 60 62.0112"></polyline>
+                </g>
+                <path d="M4,9 L60,9" id="Stroke-5"></path>
+                <path d="M7,5 L9,5" id="Stroke-6"></path>
+                <path d="M11,5 L13,5" id="Stroke-7"></path>
+                <path d="M15,5 L17,5" id="Stroke-8"></path>
+                <path d="M20,1 L20,9" id="Stroke-9"></path>
+                <path d="M23,5 L57,5" id="Stroke-11"></path>
+                <polygon id="Stroke-12" points="8 24.9998 56 24.9998 56 12.9998 8 12.9998"></polygon>
+                <path d="M31,19 L33,19" id="Stroke-13"></path>
+                <path d="M27,19 L29,19" id="Stroke-14"></path>
+                <path d="M35,19 L37,19" id="Stroke-15"></path>
+                <polygon id="Stroke-16" points="8 38.9998 21 38.9998 21 30.9998 8 30.9998"></polygon>
+                <polygon id="Stroke-17" points="25 38.9998 39 38.9998 39 30.9998 25 30.9998"></polygon>
+                <polygon id="Stroke-18" points="43 38.9998 56 38.9998 56 30.9998 43 30.9998"></polygon>
+                <path d="M7,43 L22,43" id="Stroke-19"></path>
+                <path d="M7,47 L22,47" id="Stroke-20"></path>
+                <path d="M7,51 L22,51" id="Stroke-21"></path>
+                <path d="M24,43 L39,43" id="Stroke-22"></path>
+                <path d="M24,47 L39,47" id="Stroke-23"></path>
+                <path d="M24,51 L39,51" id="Stroke-24"></path>
+                <path d="M42,43 L57,43" id="Stroke-25"></path>
+                <path d="M42,47 L57,47" id="Stroke-26"></path>
+                <path d="M42,51 L57,51" id="Stroke-27"></path>
+                <path d="M7,59 L57,59" id="Stroke-28"></path>
+            </g>
+        </g>
+    </g>
+</svg>

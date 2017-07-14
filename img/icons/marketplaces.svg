@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="60px" viewBox="0 0 64 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>marketplaces</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-334.000000, -452.000000)" stroke="#222829" stroke-width="2">
+            <g id="marketplaces" transform="translate(335.000000, 452.000000)">
+                <g id="Group-11" transform="translate(0.000000, 0.988800)">
+                    <path d="M36,5.5112 C36,9.0112 34.037,12.0112 31,12.0112 C27.963,12.0112 26,9.0112 26,5.5112 C26,2.0112 27,0.0112 31,0.0112 C35,0.0112 36,2.0112 36,5.5112 L36,5.5112 Z" id="Stroke-2"></path>
+                    <path d="M34,11.0112 L41,15.0112 L41,17.0112 C41,18.6682 40,20.0112 39,20.0112 L23,20.0112 C22,20.0112 21,18.6682 21,17.0112 L21,15.0112 L28,11.0112" id="Stroke-3"></path>
+                    <path d="M15,43.5112 C15,47.0112 13.037,50.0112 10,50.0112 C6.963,50.0112 5,47.0112 5,43.5112 C5,40.0112 6,38.0112 10,38.0112 C14,38.0112 15,40.0112 15,43.5112 L15,43.5112 Z" id="Stroke-4"></path>
+                    <path d="M13,49.0112 L20,53.0112 L20,55.0112 C20,56.6682 19,58.0112 18,58.0112 L2,58.0112 C1,58.0112 0,56.6682 0,55.0112 L0,53.0112 L7,49.0112" id="Stroke-5"></path>
+                    <path d="M57,43.5112 C57,47.0112 55.037,50.0112 52,50.0112 C48.963,50.0112 47,47.0112 47,43.5112 C47,40.0112 48,38.0112 52,38.0112 C56,38.0112 57,40.0112 57,43.5112 L57,43.5112 Z" id="Stroke-6"></path>
+                    <path d="M55,49.0112 L62,53.0112 L62,55.0112 C62,56.6682 61,58.0112 60,58.0112 L44,58.0112 C43,58.0112 42,56.6682 42,55.0112 L42,53.0112 L49,49.0112" id="Stroke-7"></path>
+                    <path d="M31,25.0112 L31,35.0112" id="Stroke-8"></path>
+                    <path d="M31,35.0112 L21,43.0112" id="Stroke-9"></path>
+                    <path d="M31,35.0112 L41,43.0112" id="Stroke-10"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

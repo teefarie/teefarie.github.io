@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="63px" viewBox="0 0 49 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>messaging</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="54.988 91.2111781 54.988 0.0112 2.71050543e-20 0.0112 0 91.2111781 54.988 91.2111781"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-77.000000, -222.000000)">
+            <g id="messaging" transform="translate(71.000000, 221.000000)">
+                <g id="Group-10" transform="translate(0.000000, 0.988800)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-1"></g>
+                    <path d="M41.4941,11.0112 L41.4941,5.0112 C41.4941,2.2492 39.2561,0.0112 36.4941,0.0112 L12.4941,0.0112 C9.7321,0.0112 7.4941,2.2492 7.4941,5.0112 L7.4941,57.0112 C7.4941,59.7732 9.7321,62.0112 12.4941,62.0112 L36.4941,62.0112 C39.2561,62.0112 41.4941,59.7732 41.4941,57.0112 L41.4941,41.0112" id="Stroke-2" stroke="#222829" stroke-width="2" mask="url(#mask-2)"></path>
+                    <polyline id="Stroke-3" stroke="#222829" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)" points="53.4941 14.0112 35.4941 26.0112 17.4941 14.0112"></polyline>
+                    <polygon id="Stroke-4" stroke="#222829" stroke-width="2" mask="url(#mask-2)" points="53.4941 38.0112 25.4941 38.0112 17.4941 46.0112 17.4941 14.0112 53.4941 14.0112"></polygon>
+                    <path d="M30.4941,32.0112 L32.4941,32.0112" id="Stroke-5" stroke="#222829" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M34.4941,32.0112 L36.4941,32.0112" id="Stroke-6" stroke="#222829" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M38.4941,32.0112 L40.4941,32.0112" id="Stroke-7" stroke="#222829" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <polyline id="Stroke-8" stroke="#222829" stroke-width="2" mask="url(#mask-2)" points="37.4941 41.0112 37.4941 54.0112 11.4941 54.0112 11.4941 6.0112 37.4941 6.0112 37.4941 11.0112"></polyline>
+                    <path d="M20.4941,58.0112 L28.4941,58.0112" id="Stroke-9" stroke="#222829" stroke-width="2" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
