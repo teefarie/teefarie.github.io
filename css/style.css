@@ -1034,9 +1034,13 @@ footer .col-quater ul li a:hover, footer .copyright li a:hover{
         .copy h5{
             font-family: 'Akkurat', sans-serif;
         }
+
+        .copyright .navigation {
+            margin-top: 32px;
+        }
     }
 
-    @media only screen and (max-width : 750px){
+    @media only screen and (max-width : 992px){
         .copyright .logo, .copyright .navigation li, .copy{
             clear: both;
             float: none;
@@ -1394,13 +1398,9 @@ div.content {
     /*border: 1px solid #eee;
     background-color: #fafafa;*/
     width: 200px;
-    display: inline-block;
     margin-right: 24px;
     padding: 16px;
     margin-top: 24px;
-    text-transform: uppercase;
-    font-size: .75rem;
-    color: #2a2a2a;
 }
 
 .little-card img{
@@ -1408,7 +1408,15 @@ div.content {
 }
 
 .little-card p{
-    font-size: 1em;
+    display: inline-block;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: .75rem;
+    color: #2a2a2a;
+    font-family: "Akkurat", sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 12px;
 }
 
 .big-cards{
