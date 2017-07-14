@@ -1366,6 +1366,18 @@ div.content {
   padding: 10px 20px;
 }
 
+@media only screen and (max-width: 768px){
+    .tabbed-content.button-tabs{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px){
+    .talent.features-container{
+        display: none;
+    }
+}
+
 /******Clients******/
 
 .logo-list{
