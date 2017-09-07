@@ -343,6 +343,7 @@ footer .right a{
 .jobs-list .tbl-accordion .job td.job-number {
 	color: #314CD2;
 	font-size: 12px;
+	width: 30px;
 	margin-right: 14px;
 	padding: 4px 0px 4px 8px;
 }
