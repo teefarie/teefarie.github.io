@@ -215,9 +215,12 @@ footer .right a{
 	}
 }
 
-.header-links a svg{
-	width: 34px;
+.header-links a {
 	margin-left: 12px;
+}
+
+.header-links a svg{
+	
 }
 
 .home {
