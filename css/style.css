@@ -740,7 +740,7 @@ footer {
   position: relative;
 }
 
-@media only screen and (min-width : 769px) {
+@media only screen and (min-width : 996px) {
   footer {
     display: -ms-flexbox;
     display: flex;
@@ -775,7 +775,7 @@ footer .right {
 	clear: both;
 }
 
-@media only screen and (max-width : 769px) { 
+@media only screen and (max-width : 996px) { 
 	footer .right {
 		float: none;
 	}
@@ -786,13 +786,22 @@ footer .right {
 	}
 }
 
-.footer-logo {
-	position: absolute;
-	left: 50%
+
+@media only screen and (min-width : 996px) { 
+	.footer-logo {
+		position: absolute;
+		left: 50%
+	}
 }
 
 .footer-logo img {
 	max-width: 30%;
+}
+
+@media only screen and (max-width : 996px) { 
+	.footer-logo img {
+		max-width: 5%;
+	}
 }
 
 a.download {
