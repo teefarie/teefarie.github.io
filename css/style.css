@@ -400,8 +400,29 @@ nav ul .header-action a.login {
 		margin-top: 24px
 	}
 
+	.header-action {
+		margin-top: 24px;
+	}
+
 	.header-action a.button {
-		padding: 14px 32px;
+		color: #03a2dc;
+		background-color: transparent;
+		border: none;
+		border-radius: 0px;
+		font-size: .675em;
+		padding: 0px 0px;
+		margin-bottom: 24px;
+		display: inline-block;
+		vertical-align: middle;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: underline;
+	}
+
+	.header-action a.button.stroked.coloured{
+		background-color: transparent;
+		border: none;
+		color: #03a2dc;
 	}
 }
 
@@ -437,6 +458,15 @@ nav ul .header-action a.login {
 	position: absolute;
 	right: 0;
 	bottom: 0;
+}
+
+@media only screen and (max-width :768px) {
+	.hero-image {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		max-width: 100%;
+	}
 }
 
 .sub-text h3 {
@@ -707,6 +737,7 @@ footer {
   width: 100%;
   background: #fff;
   padding: 24px 0;
+  position: relative;
 }
 
 @media only screen and (min-width : 769px) {
@@ -727,6 +758,7 @@ footer ul li {
 	display: inline-block;
 	font-size: 14px;
 	margin-right: 48px;
+	padding-top: 4px;
 }
 
 footer ul li a {
@@ -752,6 +784,20 @@ footer .right {
 		display: block;
 		margin-bottom: 24px;
 	}
+}
+
+.footer-logo {
+	position: absolute;
+	left: 50%
+}
+
+.footer-logo img {
+	max-width: 30%;
+}
+
+a.download {
+	text-decoration: underline;
+	color: #03a2dc;
 }
 
 
@@ -926,6 +972,7 @@ footer .right {
 
 .media-text--horizontal .media-text__body {
 	color: #858585;
+	margin-bottom: 16px;
 }
 
 .media-text--horizontal .media-text__header {
