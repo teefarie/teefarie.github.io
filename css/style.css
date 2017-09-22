@@ -573,7 +573,7 @@ nav ul .header-action a.login {
 }
 
 .about ul li p {
-	font-size: 1.115em
+	font-size: 1.05em;
 	color: #858585;
 }
 
@@ -1036,6 +1036,10 @@ a.download {
 	p.media-text__body.mobile-copy {
 		display: none
 	}
+
+	a.small-download {
+		display: none;
+	}
 }
 
 @media only screen and (max-width:993px) {
@@ -1072,6 +1076,15 @@ a.download {
 	p.media-text__body.large-copy {
 		display: none
 	}
+
+	a.big-download {
+		display: none;
+	}
+
+	.media-text__text a.download.download-center {
+		width: 120px;
+		margin: 24px auto 0;
+	}
 }
 
 @media only screen and (max-width:600px) {
@@ -1082,7 +1095,7 @@ a.download {
 	}
 	.media-text--horizontal .media-text__body {
 		width: 90%;
-		margin: 24px auto 0
+		margin: 24px auto 24px
 	}
 }
 
