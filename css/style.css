@@ -271,7 +271,6 @@ header .wrapper {
 .hero-content {
 	width: 850px;
     text-align: left;
-    padding: 72px 70px;
 	z-index: 9999;
 	background-color: #fff;
 }
@@ -282,9 +281,21 @@ header .wrapper {
 	}
 }
 
-@media(max-width:560px) {
+@media(min-width:320px) {
 	.hero-content {
 		padding: 44px 40px;
+	}
+}
+
+@media(min-width:560px) {
+	.hero-content {
+		padding: 44px 40px;
+	}
+}
+
+@media(min-width:769px) {
+	.hero-content {
+		padding: 72px 70px;
 	}
 }
 
