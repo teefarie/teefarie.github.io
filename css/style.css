@@ -331,6 +331,7 @@ header .wrapper {
 
 .hero-content input, #footer input {
 	border: 1px solid #eee;
+	-webkit-appearance: none;
 	border-radius: 4px;
 	padding: 18px 32px;
 	font-size: 1em;
@@ -553,7 +554,7 @@ svg.bubbles  {
     height: 150px;
     border-radius: 100px;
     background-color: white;
-    box-shadow: 0 10px 40px rgba(41,200,255,0.1);
+    box-shadow: 0 10px 40px rgba(41,200,255,0.2);
     margin: 0 auto 24px auto;
 }
 
@@ -806,6 +807,7 @@ svg.bubbles  {
     transform: translateX(-3px) rotate(-2deg);
   }
 }
+
 .hvr-buzz {
   display: inline-block;
   vertical-align: middle;
