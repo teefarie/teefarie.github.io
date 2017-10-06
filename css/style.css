@@ -135,6 +135,7 @@ p {
 	border: 2px solid #3999FB;
 	border-radius: 4px;
 	font-size: .75em;
+	font-weight: bold;
 	text-transform: uppercase;
 	padding: 16px 32px;
 	margin-top: 6px;
@@ -645,8 +646,6 @@ svg.bubbles  {
     text-align: left;
     padding: 72px 70px;
 	background-color: #fff;
-	position: absolute;
-	top: -50%;
 }
 
 @media(max-width:1199px) {
@@ -656,21 +655,12 @@ svg.bubbles  {
 	}
 }
 
-@media(min-width: 1200px) {
+@media(min-width:1200px) {
 	#footer .box-shadow {
-		left: 15%;
-	}
-}
-
-@media(min-width: 1300px) {
-	#footer .box-shadow {
-		left: 20%;
-	}
-}
-
-@media(min-width: 1500px) {
-	#footer .box-shadow {
-		left: 25%;
+		position: absolute;
+		top: -50%;
+		left: 50%;
+	  	margin-left: -425px;
 	}
 }
 
@@ -717,14 +707,19 @@ svg.bubbles  {
 	}
 }
 
-#footer .made-in{
-	display: inline-block;
-}
-
-#footer-bottom h4{
+#footer-bottom h4 {
 	color:  #3999FB;
 	display: inline-block;
 	font-size: 14px;
+}
+
+@media(max-width: 1199px) {
+	#footer-bottom h4 {
+		text-align: center;
+		width: 100%;
+		display: block;
+		color: #fff;
+	}
 }
 
 #footer-bottom h4 a {
@@ -733,12 +728,18 @@ svg.bubbles  {
 	font-size: 14px;
 }
 
+@media(max-width: 1199px) {
+	#footer-bottom h4 a  {
+		color: #fff;
+	}
+}
+
 .footer-links ul li {
 	display: inline-block;
 	border-left: 2px solid #fff;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1199px) {
 	.footer-links ul li {
 		display: block;
 		border-left: none;
@@ -755,10 +756,11 @@ svg.bubbles  {
 	clear: both;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1199px) {
 	#footer .footer-links{
 		float: none;
 		margin-top: 24px;
+		text-align: center;
 	}
 }
 
@@ -773,7 +775,7 @@ svg.bubbles  {
 	margin: 0 18px 0 0;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1199px) {
 	#footer .footer-links a{
 		margin: 24px 18px 0 0;
 	}
