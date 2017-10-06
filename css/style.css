@@ -61,13 +61,13 @@ h3 {
 }
 
 h1{
-	font-size: 60px;
+	font-size: 3.75em;
 	line-height: 80px;
 }
 
 @media(max-width:768px) {
 	h1 {
-		font-size: 40px;
+		font-size: 2.5em;
 		line-height: 60px;
 	}
 }
@@ -76,7 +76,6 @@ p {
 	color: #808080;
 	font-size: 1.125em;
 	line-height: 1.8125em;
-	/*font-family: 'Akkurat-Light', sans-serif;*/
 	font-family: "Akkurat", sans-serif
 }
 
@@ -135,7 +134,7 @@ p {
 	border: 2px solid #3999FB;
 	border-radius: 4px;
 	font-size: .75em;
-	font-weight: bold;
+	font-family: 'CircularStd-Book';
 	text-transform: uppercase;
 	padding: 16px 32px;
 	margin-top: 6px;
@@ -207,7 +206,7 @@ header .wrapper {
 	color: #fff;
 	text-transform: uppercase;
 	font-family: "CircularStd-Book", sans-serif;
-	font-size: 28px;
+	font-size: 1.75em;
 	text-align: center;
 	padding-top: 4px;
 	position: relative;
@@ -216,7 +215,7 @@ header .wrapper {
 #logo span {
 	position: absolute;
 	color: #3999FB;
-	font-size: 14px;
+	font-size: .875em;
 	text-transform: capitalize;
 	margin-left: 56px;
 	bottom: 15px;
@@ -260,12 +259,12 @@ header .wrapper {
 }
 
 #hero {
-	padding: 200px 0 210px;
+	padding: 250px 0 200px;
 }
 
 @media(max-width: 767px) {
 	#hero {
-		padding: 150px 0 210px;
+		padding: 150px 0 200px;
 	}
 }
 
@@ -295,21 +294,21 @@ header .wrapper {
 
 @media(min-width: 320px) {
 	.hero-content h1, #about .box-shadow h1, #footer .box-shadow h1 {
-		font-size: 24px;
+		font-size: 1.5em;
 		line-height: 38px;
 	}
 }
 
 @media(min-width: 480px) {
 	.hero-content h1, #about .box-shadow h1, #footer .box-shadow h1 {
-		font-size: 32px;
+		font-size: 2em;
 		line-height: 42px;
 	}
 }
 
 @media(min-width: 768px) {
 	.hero-content h1, #about .box-shadow h1, #footer .box-shadow h1 {
-		font-size: 60px;
+		font-size: 3.75em;
 		line-height: 80px;
 	}
 }
@@ -320,13 +319,13 @@ header .wrapper {
 
 .hero-content p, #about p {
 	color: #454545;
-	font-size: 22px;
+	font-size: 1.375em;
 	margin-bottom: 32px;
 }
 
 @media(max-width:767px) {
 	.hero-content p, #about p {
-		font-size: 16px;
+		font-size: 1em;
 	}
 }
 
@@ -334,7 +333,7 @@ header .wrapper {
 	border: 1px solid #eee;
 	border-radius: 4px;
 	padding: 18px 32px;
-	font-size: 16px;
+	font-size: 1em;
 	color: #aaa;
 	width: 80%;
 	display: block;
@@ -347,7 +346,7 @@ header .wrapper {
 @media(max-width: 768px) {
 	.hero-content input, #footer input {
 		width: 100%;
-		font-size: 14px;
+		font-size: .875em;
 	}
 }
 
@@ -427,7 +426,7 @@ svg.bubbles  {
     left: 130px;
     width: 100%;
     height: 300px;
-
+    overflow: hidden;
 }
 
 @media(min-width: 320px) {
@@ -454,7 +453,7 @@ svg.bubbles  {
 
 @media(min-width: 320px) {
 	#features h3 {
-		font-size: 24px;
+		font-size: 1.5em
 		line-height: 38px;
 		width: 90%;
 		margin: 0 auto 14px;
@@ -463,7 +462,7 @@ svg.bubbles  {
 
 @media(min-width: 480px) {
 	#features h3 {
-		font-size: 32px;
+		font-size: 2em;
 		line-height: 42px;
 	}
 }
@@ -477,7 +476,7 @@ svg.bubbles  {
 
 @media(min-width: 1200px) {
 	#features h3 {
-		font-size: 48px;
+		font-size: 3em;
 		line-height: 68px;
 		width: 70%;
 		margin: 0 auto 14px;
@@ -500,7 +499,7 @@ svg.bubbles  {
 @media(min-width: 768px) {
 	#features .text-center p {
 		width: 70%;
-		font-size: 22px;
+		font-size: 1.375em;
 	}
 }
 
@@ -583,20 +582,20 @@ svg.bubbles  {
 
 @media(min-width: 320px) {
 	.wrap h4 {
-	    font-size: 22px;
+	    font-size: 1.375em
 	    line-height: 38px;
 	}
 }
 
 @media(min-width: 768px) {
 	.wrap h4 {
-	    font-size: 32px;
+	    font-size: 2em;
     	line-height: 42px;
 	}
 }
 
 .wrap .text p {
-    font-size: 22px;
+    font-size: 1.375em;
     line-height: 42px;
     margin: 0 0;
     color: #000;
@@ -614,7 +613,7 @@ svg.bubbles  {
 
 @media (max-width: 767px) {
 	.wrap .text p {
-	    font-size: 16px;
+	    font-size: 1em;
 	}
 }
 
@@ -683,7 +682,7 @@ svg.bubbles  {
 .share p {
 	color: #000;
 	margin-right: 8px;
-	font-size: 16px;
+	font-size: 1em;
 	display: inline-block;
 	font-weight: normal;
 }
@@ -710,7 +709,7 @@ svg.bubbles  {
 #footer-bottom h4 {
 	color:  #3999FB;
 	display: inline-block;
-	font-size: 14px;
+	font-size: .875em;
 }
 
 @media(max-width: 1199px) {
@@ -725,7 +724,7 @@ svg.bubbles  {
 #footer-bottom h4 a {
 	color:  #3999FB;
 	text-decoration: underline;
-	font-size: 14px;
+	font-size: .875em;
 }
 
 @media(max-width: 1199px) {
@@ -766,7 +765,7 @@ svg.bubbles  {
 
 .footer-links a {
 	color: #fff;
-	font-size: 14px;
+	font-size: .875em;
 	margin: 0 18px;
 	transition: all ease-in .4s;
 }
@@ -786,6 +785,42 @@ svg.bubbles  {
 		width: 100%;
 	}
 }
+
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 5;
+  animation-iteration-count: 5;
+}
+
 
 
 
