@@ -284,7 +284,7 @@ header .wrapper {
 
 @media(max-width:560px) {
 	.hero-content {
-		padding: 48px 48px;
+		padding: 44px 40px;
 	}
 }
 
@@ -713,12 +713,20 @@ svg.bubbles  {
 	font-size: .875em;
 }
 
+#footer-bottom h4 span {
+	color:  #3999FB;
+}
+
 @media(max-width: 1199px) {
 	#footer-bottom h4 {
 		text-align: center;
 		width: 100%;
 		display: block;
 		color: #fff;
+	}
+
+	#footer-bottom h4 span {
+		color:  #fff;
 	}
 }
 
