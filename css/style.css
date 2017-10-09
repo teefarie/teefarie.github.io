@@ -253,10 +253,15 @@ header .wrapper {
 
 #hero, #footer {
 	position: relative;
-	background: url("../img/bg.png") center no-repeat;
+	background: url("../img/blue-bg-big.svg") center no-repeat;
 	background-size: cover;
 	width: 100%;
 	z-index: 1;
+}
+
+#footer {
+	background: url("../img/blue-bg-big-footer.svg") center no-repeat;
+	background-size: cover;
 }
 
 #hero {
@@ -377,6 +382,7 @@ header .wrapper {
 
 #about {
 	position: relative;
+	padding: 200px 0 0;
 }
 
 #about p {
@@ -437,29 +443,29 @@ svg.bubbles  {
 }
 
 @media(min-width: 320px) {
-	#features {
-		padding: 0px 0px 50px;
+	#how-it-works {
+		padding: 150px 0px 50px;
 	}
 }
 
 @media(min-width:769px) {
-	#features {
-		padding: 0px 0px 150px;
+	#how-it-works {
+		padding: 150px 0px 150px;
 	}
 }
 
 @media(min-width:1200px) {
-	#features{
-		padding: 0px 0px 450px;
+	#how-it-works{
+		padding: 200px 0px 450px;
 	}
 }
 
-#features h3 {
+#how-it-works h3 {
 	color: #454545;
 }
 
 @media(min-width: 320px) {
-	#features h3 {
+	#how-it-works h3 {
 		font-size: 1.5em;
 		line-height: 38px;
 		width: 90%;
@@ -468,21 +474,21 @@ svg.bubbles  {
 }
 
 @media(min-width: 480px) {
-	#features h3 {
+	#how-it-works h3 {
 		font-size: 2em;
 		line-height: 42px;
 	}
 }
 
 @media(min-width: 768px) {
-	#features h3 {
+	#how-it-works h3 {
 		width: 80%;
 		margin: 0 auto 14px;
 	}
 }
 
 @media(min-width: 1200px) {
-	#features h3 {
+	#how-it-works h3 {
 		font-size: 3em;
 		line-height: 68px;
 		width: 70%;
@@ -490,7 +496,7 @@ svg.bubbles  {
 	}
 }
 
-#features .text-center p {
+#how-it-works .text-center p {
 	color: #000;
 	width: 65%;
 	margin: 0 auto;
@@ -498,20 +504,20 @@ svg.bubbles  {
 }
 
 @media(min-width: 320px) {
-	#features .text-center p {
+	#how-it-works .text-center p {
 		width: 90%;
 	}
 }
 
 @media(min-width: 768px) {
-	#features .text-center p {
+	#how-it-works .text-center p {
 		width: 70%;
 		font-size: 1.375em;
 	}
 }
 
 @media(min-width: 1200px) {
-	#features .text-center p {
+	#how-it-works .text-center p {
 		width: 65%;
 	}
 }
