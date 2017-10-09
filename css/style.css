@@ -462,6 +462,12 @@ svg.bubbles  {
     overflow: hidden;
 }
 
+@media(max-width:768px) {
+	svg.bubbles  {
+	    left: 50px;
+	}
+}
+
 @media(min-width: 320px) {
 	#how-it-works {
 		padding: 150px 0px 50px;
