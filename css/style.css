@@ -259,9 +259,23 @@ header .wrapper {
 	z-index: 1;
 }
 
+@media(max-width: 767px) {
+	#hero, #footer {
+		background: url("../img/blue-bg-small.svg") center no-repeat;
+		background-size: cover;
+	}
+}
+
 #footer {
 	background: url("../img/blue-bg-big-footer.svg") center no-repeat;
 	background-size: cover;
+}
+
+@media(max-width: 767px) {
+	#footer {
+		background: url("../img/blue-bg-small-footer.svg") center no-repeat;
+		background-size: cover;
+	}
 }
 
 #hero {
