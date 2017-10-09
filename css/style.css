@@ -3,7 +3,7 @@ body {
 	font-family: "Akkurat", sans-serif;
 	font-size: 1em;
 	letter-spacing: .5px;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 	background-color: #FFF;
 }
 
@@ -397,6 +397,12 @@ header .wrapper {
 #about {
 	position: relative;
 	padding: 200px 0 0;
+}
+
+@media (max-width: 768px){
+	#about {
+		padding: 150px 0 0;
+	}
 }
 
 #about p {
