@@ -464,7 +464,7 @@ svg.bubbles  {
 
 @media(max-width:768px) {
 	svg.bubbles  {
-	    left: 50px;
+	    display: none;
 	}
 }
 
