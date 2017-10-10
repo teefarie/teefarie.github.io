@@ -359,6 +359,12 @@ header .wrapper {
 	}
 }
 
+@media(min-width:1200px) {
+	.hero-content p {
+		width: 80%;
+	}
+}
+
 .hero-content input, #footer input {
 	border: 1px solid #eee;
 	-webkit-appearance: none;
@@ -758,8 +764,7 @@ svg.bubbles  {
 
 @media(min-width: 1200px) {
 	.made-in {
-		width: 180px;
-	    display: inline-block;
+		display: inline-block;
 	}
 }
 
@@ -790,7 +795,6 @@ svg.bubbles  {
 #footer-bottom h4 a {
 	color:  #1C84F8;
 	text-decoration: underline;
-	font-size: .875em;
 }
 
 @media(max-width: 1199px) {
