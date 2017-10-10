@@ -129,8 +129,8 @@ p {
 
 .button {
 	color: #fff;
-	background-color: #3999FB;
-	border: 2px solid #3999FB;
+	background-color: #1C84F8;
+	border: 2px solid #1C84F8;
 	border-radius: 4px;
 	font-size: .75em;
 	font-family: 'CircularStd-Book';
@@ -195,10 +195,10 @@ header .wrapper {
 	align-content: center;
 }
 
-#logo {
+/*#logo {
 	width: 48px;
     height: 48px;
-	background-color: #3999FB;
+	background-color: #1C84F8;
 	border-radius: 100%;
 }
 
@@ -214,11 +214,15 @@ header .wrapper {
 
 #logo span {
 	position: absolute;
-	color: #3999FB;
+	color: #1C84F8;
 	font-size: .875em;
 	text-transform: capitalize;
 	margin-left: 48px;
 	bottom: 17px;
+}*/
+
+#logo img {
+	max-width: 70%;
 }
 
 #header-links {
@@ -315,6 +319,7 @@ header .wrapper {
 
 .hero-content h1, #about .box-shadow h1, #footer .box-shadow h1 {
 	margin-bottom: 18px;
+	font-weight: bolder;
 }
 
 @media(min-width: 320px) {
@@ -339,7 +344,7 @@ header .wrapper {
 }
 
 .hero-content h1 span {
-	color: #3999FB;
+	color: #1C84F8;
 }
 
 .hero-content p, #about p {
@@ -377,8 +382,8 @@ header .wrapper {
 }
 
 .hero-content input:hover, #footer input:hover {
-	border: 1px solid #3999FB;
-	color: #3999FB;
+	border: 1px solid #1C84F8;
+	color: #1C84F8;
 }
 
 .hero-content .button, #footer .button {
@@ -462,7 +467,7 @@ svg.bubbles  {
     overflow: hidden;
 }
 
-@media(max-width:768px) {
+@media(max-width:600px) {
 	svg.bubbles  {
 	    display: none;
 	}
@@ -751,14 +756,22 @@ svg.bubbles  {
 	}
 }
 
+@media(min-width: 1200px) {
+	.made-in {
+		width: 180px;
+	    display: inline-block;
+	}
+}
+
+
 #footer-bottom h4 {
-	color:  #3999FB;
+	color:  #1C84F8;
 	display: inline-block;
 	font-size: .875em;
 }
 
 #footer-bottom h4 span {
-	color:  #3999FB;
+	color:  #1C84F8;
 }
 
 @media(max-width: 1199px) {
@@ -775,7 +788,7 @@ svg.bubbles  {
 }
 
 #footer-bottom h4 a {
-	color:  #3999FB;
+	color:  #1C84F8;
 	text-decoration: underline;
 	font-size: .875em;
 }
