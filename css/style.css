@@ -243,9 +243,6 @@ header .wrapper {
 	float: right;
 }
 
-#header-button .button {
-}
-
 @media(min-width: 320px) {
 	#header-button .button {
 	    font-size: .65em;
@@ -264,11 +261,8 @@ header .wrapper {
 	    font-size: .75em;
 	    min-width: 100px;
     	padding: 17px 32px;
-    	    padding-left: 32px;
-    padding-right: 32px;
 	}
 }
-
 
 #hero, #footer {
 	position: relative;
