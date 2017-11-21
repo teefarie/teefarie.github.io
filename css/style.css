@@ -985,6 +985,11 @@ footer .copyright li a:hover {
   }
 }
 
+.news-filter h5 {
+  margin-bottom: 11px;
+  font-size: 16px;
+}
+
 .news-filter ul li {
   margin-bottom: 19px
 }
@@ -2113,6 +2118,14 @@ section.d-padding h1 {
 
 .dev-image img {
   max-width: 100%;
+}
+
+.clear a {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  color: #a7f1ee;
+  margin-bottom: 11px;
 }
 
 
