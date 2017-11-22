@@ -42,12 +42,12 @@ a {
 }
 
 section {
-  padding: 120px 0
+  padding: 120px 0;
 }
 
 @media only screen and (max-width:768px) {
   section {
-    padding: 80px 0
+    padding: 80px 0;
   }
 }
 
@@ -265,6 +265,10 @@ nav a {
     -webkit-tap-highlight-color: transparent;
     color: #0089ff;
   }
+}
+
+nav a.drop-list:hover header {
+  height: 200px;
 }
 
 nav a.dropdown:after {
@@ -820,7 +824,7 @@ nav ul .header-action a.login {
 
 footer {
   padding: 80px 0 40px;
-  border: solid 1px #d8e5ee;
+  border-top: solid 1px #d8e5ee;
 }
 
 @media only screen and (max-width :768px) {
@@ -1098,6 +1102,12 @@ footer .copyright li a:hover {
   color: #0089ff!important;
 }
 
+@media only screen and (min-width: 769px) { 
+  .follow.dev-f {
+     vertical-align: super;
+  }
+}
+
 .follow:before {
   content: "\F067";
   font-family: FontAwesome;
@@ -1328,6 +1338,7 @@ label.check {
   font-size: 36px;
   margin-bottom: 33px;
   display: inline-block;
+  margin-right: 8px;
 }
 
 @media only screen and (max-width: 768px) { 
@@ -1906,7 +1917,6 @@ section.d-padding h1 {
 .product-image li {
   width: 158px;
   height: 116px;
-  margin-right: 16px;
 }
 
 .product-image li img {
@@ -2089,7 +2099,7 @@ section.d-padding h1 {
   }
 }
 
-.dev-info p {
+.dev-info p, .news-content p {
   font-size: 18px;
   line-height: 2;
   color: #34495d;
@@ -2097,7 +2107,7 @@ section.d-padding h1 {
 }
 
 @media only screen and (max-width: 991px) {
-  .dev-info p {
+  .dev-info p, .news-content p {
     font-size: 16px;
   }
 }
@@ -2128,8 +2138,83 @@ section.d-padding h1 {
   margin-bottom: 11px;
 }
 
+.news-flex {
+  display: -ms-flexbox;
+  display: flex;
+}
 
+@media only screen and (max-width: 991px) {
+  .news-flex {
+    display: block;
+  }
+}
 
+.news-content {
+  width: 75%;
+  padding: 0 48px;
+}
+
+@media only screen and (max-width: 991px) {
+  .news-content {
+    width: 100%;
+    padding: 40px 0px 0px;
+  }
+}
+
+.news-content .news-list {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.share ul li {
+  margin-bottom: 14px;
+}
+
+@media only screen and (max-width: 991px) {
+  .share ul li {
+    display: inline-block;
+    margin-right: 32px;
+  }
+}
+
+.share ul li a {
+  color: #34495d;
+}
+
+.news-bg-image {
+  padding: 0 0;
+  background: url("../img/news-feed.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 570px;
+  position: relative;
+}
+
+.news-summary {
+  color: #fff; 
+  position: relative;
+  top: 40%;
+}
+
+.news-summary h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .news-summary h1 {
+    font-size: 32px;
+  }
+}
+
+.news-summary h6 {
+  font-size: 24px;
+}
+@media only screen and (max-width: 767px) {
+  .news-summary h6 {
+    font-size: 16px;
+  }
+}
 
 
 
