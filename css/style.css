@@ -1,7 +1,7 @@
 @import 'type.css';
 
 body {
-  font-family: 'Circular Std Book', sans-serif;
+  font-family: 'CircularStd-Book', sans-serif;
   font-size: 1em;
   line-height: 1.47
 }
@@ -258,6 +258,7 @@ nav a {
   display: block;
   color: #fff;
   text-decoration: none;
+  font-size: 1.125em;
 }
 
 @media only screen and (max-width:992px) {
@@ -356,7 +357,7 @@ nav a.active {
 
 nav ul .header-action a.login {
   margin-right: 40px;
-  font-size: .875em
+  font-size: 1.125em
 }
 
 @media screen and (min-width:993px) {
@@ -781,7 +782,7 @@ nav ul .header-action a.login {
   background-color: #c2c2c2;
 }
 
-.multiple-industries h3, .multiple-industries p {
+.multiple-industries h3, .multiple-industries a, .multiple-industries p {
   color: #fff;
 }
 
@@ -813,13 +814,12 @@ nav ul .header-action a.login {
   }
 }
 
-.multiple-industries ul li p {
+.multiple-industries ul li a {
   color: #fff;
-  font-size: 15px;
+  font-size: 1.125em;
   display: table-cell;
   vertical-align: middle;
   padding: 0 20px;
-
 }
 
 footer {
@@ -864,8 +864,8 @@ footer .col-quater ul h4 {
 
 footer .col-quater ul li {
   color: #6e6e6e;
-  font-size: 14px;
-  line-height: 1.25rem;
+  font-size: 1.125em;
+  line-height: 1.75rem;
   padding-bottom: .75em;
   padding-top: .75em
 }
@@ -882,7 +882,6 @@ footer .col-quater ul li.address {
 
 footer .col-quater ul li a {
   color: #6e6e6e;
-  font-size: 14px;
 }
 
 footer .col-quater.social ul li {
@@ -939,11 +938,18 @@ footer .copyright li a:hover {
   font-weight: normal;
   font-size: .85em;
   line-height: 24px;
+  padding-top: 8px;
+}
+
+@media only screen and (max-width :767px) {
+  .copy h5 {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width :768px) {
   .copyright .navigation {
-    margin-top: 32px
+    margin-top: 32px;
   }
 }
 
@@ -961,6 +967,33 @@ footer .copyright li a:hover {
   .copyright .logo .icon span {
     float: left
   }
+}
+
+.copy {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width :768px) {
+  .copy {
+    display: block;
+  }
+}
+
+.copy-image {
+  width: 80px;
+  margin-right: 18px;
+}
+
+@media only screen and (max-width :768px) {
+  .copy-image {
+    width: 80px;
+    margin:0 auto;
+  }
+}
+
+.copy img {
+  max-width: 100%;
 }
 
 .text-blue {
@@ -2101,7 +2134,7 @@ section.d-padding h1 {
 
 .dev-info p, .news-content p {
   font-size: 18px;
-  line-height: 2;
+  line-height: 2.2;
   color: #34495d;
   margin-bottom: 28px;
 }
@@ -2216,5 +2249,8 @@ section.d-padding h1 {
   }
 }
 
+.cat {
+  margin-bottom: 10px;
+}
 
 
