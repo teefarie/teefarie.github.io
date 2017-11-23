@@ -3,7 +3,8 @@
 body {
   font-family: 'CircularStd-Book', sans-serif;
   font-size: 1em;
-  line-height: 1.47
+  line-height: 1.47;
+  overflow-x: hidden;
 }
 
 *,
