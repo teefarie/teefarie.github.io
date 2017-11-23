@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/4edc2437b2.js"></script>
 </head>
 <body>
     <header id="header" class="home">
@@ -29,14 +30,36 @@
             <nav class="">
                 <ul>
                     <li><a href="news.html">News</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="developments.html">Developments</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <div class="header-action">
+                    <li id="drop-list">Services <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                    <li class="m-n"><a href="developments.html">Developments</a></li>
+                    <li class="m-n"><a href="events.html">Events</a></li>
+                    <div class="header-action m-n">
                         <a class="button white" href="sign-up.html">Sign up</a>
                     </div>
                 </ul>
-            </nav>        
+
+                <div class="service-dropdown">
+                    <ul>
+                        <li><a href="ei-growth.html">ei Growth Indicator</a></li>
+                        <li><a href="ei-reports.html">ei Report</a></li>
+                        <li><a href="ei-database.html">ei Database</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="ei-maps.html">ei Map</a></li>
+                        <li><a href="ei-analytics.html">ei Analytics</a></li>
+                        <li><a href="ei-promote.html">ei Promote</a></li>
+                    </ul>
+                </div>
+
+                 <ul>
+                    <li class="d-n"><a href="developments.html">Developments</a></li>
+                    <li class="d-n"><a href="events.html">Events</a></li>
+                    <div class="header-action d-n">
+                        <a class="button white" href="sign-up.html">Sign up</a>
+                    </div>
+                </ul>
+            </nav>  
         </div>
     </header>
 
@@ -46,7 +69,7 @@
                 <div class="col-half">
                     <h1>Africa’s largest online real estate database.</h1>
                     <p>Find commercial real estate market data you require to start making informed decisions now.</p>
-                    <a class="button white" href="">Learn More</a>
+                    <a class="button white" href="#product-suite">Learn More</a>
                 </div>
                 <div class="col-half text-right" style="position:relative;"> 
                     <img src="img/home-img.png" class="hero-image" alt="Africa’s largest online real estate database">
@@ -55,46 +78,40 @@
         </div>
     </section>
 
-    <section class="bg-light product-suite">
+    <section class="bg-light product-suite" id="product-suite">
         <div class="wrapper">
             <div class=" sub-text centered-text text-center">
-                <h3>Our Product Suite</h3>
+                <h3 class="title">Our Product Suite</h3>
             </div>
 
             <div class="product-list one">
                 <ul>
                     <li class="text-center">
                         <a href="ei-growth.html">
-                            <div class="product-icon">
-                                <h1>G</h1>
-                                <h5>ei Growth Indicator</h5>
-                            </div>
                             <div>
-                                <p>Our growth indicators tool enables you track key data points including population, GDP, GDP per capita and compare them on inter and intra-country basis.</p>
+                                <h3>ei Growth Indicator</h3>
+                                <p>Track key data points including population, GDP, GDP per capita and compare them on inter and intra-country basis.</p>
+                                <img src="img/growth.svg">
                             </div>
                         </a>
                     </li>
 
                     <li class="text-center">
                         <a href="ei-reports.html">
-                            <div class="product-icon">
-                                <h1>R</h1>
-                                <h5>ei Reports</h5>
-                            </div>
                             <div>
-                                <p>Take your understanding of the African real estate sector to the next level. Our Sale Reports also provide transactional details on the sale or acquisition of investment grade property.</p>
+                                <h3>ei Reports</h3>
+                                <p>Our Sale Reports also provide transactional details on the sale or acquisition of investment grade property.</p>
+                                <img src="img/reports.svg">
                             </div>
                         </a>
                     </li>
 
                     <li class="text-center">
                         <a href="ei-maps.html">
-                            <div class="product-icon">
-                                <h1>M</h1>
-                                <h5>ei Maps</h5>
-                            </div>
                             <div>
-                                <p>The ei Maps provides an interactive and visually remarkable representation of the ei Database. Track ongoing developments, identify trends and locate properties across the country. </p>
+                                <h3>ei Maps</h3>
+                                <p>The ei Maps provides an interactive and visually remarkable representation of ongoing developments and properties across the country. </p>
+                                <img src="img/maps.svg">
                             </div>
                         </a>
                     </li>
@@ -106,36 +123,30 @@
 
                     <li class="text-center">
                         <a href="ei-promote.html">
-                            <div class="product-icon">
-                                <h1>P</h1>
-                                <h5>ei Promote</h5>
-                            </div>
                             <div>
-                                <p>Our specialist marketing service supports your existing or pipeline real estate project or event by giving it superior visibility on all our digital channels.</p>
+                                <h3>ei Promote</h3>
+                                <p>Our specialist marketing service supports your existing real estate project or event by giving it superior visibility on all our digital channels.</p>
+                                <img src="img/promote.svg">
                             </div>
                         </a>
                     </li>
 
                     <li class="text-center">
                         <a href="ei-analytics.html">
-                            <div class="product-icon">
-                                <h1>A</h1>
-                                <h5>ei Analytics</h5>
-                            </div>
                             <div>
+                                <h3>ei Analytics</h3>
                                 <p>Get a view on yields, capital values, transactional rental rates and other data points to get a view of the status of the African real estate space.</p>
+                                <img src="img/analytics.svg">
                             </div>
                         </a>
                     </li>
 
                     <li class="text-center">
                         <a href="ei-database.html">
-                            <div class="product-icon">
-                                <h1>D</h1>
-                                <h5>ei Database</h5>
-                            </div>
                             <div>
+                                <h3>ei Database</h3>
                                 <p>The ei Database is the largest commercial real estate database in sub Saharan Africa and it is updated daily.</p>
+                                <img src="img/database.svg">
                             </div>
                         </a>
                     </li>

@@ -161,7 +161,6 @@ header.home {
 }
 
 
-
 @media only screen and (max-width:992px) {}
 
 @media only screen and (min-width:992px) {
@@ -243,6 +242,8 @@ nav ul li {
   padding: 28px 28px 0*/
   padding: 28px 0 0;
   margin-right: 46px;
+  cursor: pointer;
+  font-size: 1em;
 }
 
 @media only screen and (max-width:992px) {
@@ -250,38 +251,100 @@ nav ul li {
     display: block;
     margin: .6em 0!important;
     line-height: 60px;
-    padding: 0
+    padding: 0;
+    cursor: default;
   }
 }
 
-nav a {
+nav a, nav li {
   display: block;
   color: #fff;
   text-decoration: none;
-  font-size: 1.125em;
 }
 
 @media only screen and (max-width:992px) {
-  nav a {
+  nav a , nav li {
     -webkit-tap-highlight-color: transparent;
     color: #0089ff;
   }
+
+  nav ul li {
+    margin: 0 0;
+  }
 }
 
-nav a.drop-list:hover header {
-  height: 200px;
+@media only screen and (min-width:320px) {
+  nav ul li {
+    line-height: 30px;
+  }
 }
 
-nav a.dropdown:after {
-  content: "\F0d7";
-  color: #fff;
-  font-family: FontAwesome;
-  font-size: 10px;
-  margin-left: 9px;
+@media only screen and (min-width:375px) {
+  nav ul li {
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width:993px) {
+  nav ul li {
+    line-height: 0px;
+  }
 }
 
 nav a.active {
   color: #03a2dc
+}
+
+nav a:hover, nav li:hover {
+  opacity: .9;
+}
+
+@media screen and (min-width:993px) {
+  .service-dropdown  {
+    float: right;
+    padding-top: 40px;
+    display: none;
+  }
+
+  .service-dropdown ul {
+    display: inline-block;
+    margin-right: 28px;
+  }
+
+  .service-dropdown ul li {
+    margin-bottom: 14px;
+    padding: 0 0;
+    display: block;
+    line-height: 30px;
+  }
+
+  .service-dropdown ul li a {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .m-n {
+    display: none;
+  }
+
+  .service-dropdown {
+    margin-left: 20px;
+  }
+
+  .service-dropdown ul li { 
+    margin: 0px 0px;
+  }
+
+  .service-dropdown ul li a { 
+    font-size: .875em;
+  }
+}
+
+@media screen and (min-width:993px) {
+  .d-n {
+    display: none;
+  }
 }
 
 .logo {
@@ -680,7 +743,15 @@ nav ul .header-action a.login {
 }
 
 .product-suite h3 {
-  margin-bottom: 64px;
+  margin-bottom: 28px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.product-suite h3.title {
+    color: #023164;
+    margin-bottom: 48px;
+    font-size: 32px;
 }
 
 
@@ -689,13 +760,18 @@ nav ul .header-action a.login {
      display: -ms-flexbox;
      display: flex;
   }
+
+  .product-suite h3.title {
+    margin-bottom: 60px;
+    font-size: 40px;
+  }
 }
 
 .product-list ul li {
-  opacity: 0.82;
   border-radius: 6px;
   box-shadow: 0 2px 4px 0 rgba(186, 164, 164, 0.08);
   border: 1.5px solid #d8e5ee;
+  border-radius: 6px;
   margin: 0 auto 88px auto;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -705,7 +781,13 @@ nav ul .header-action a.login {
   -webkit-transition-property: transform;
   transition-property: transform;
   -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out
+  transition-timing-function: ease-out;
+}
+
+@media only screen and (min-width :1024px) {
+  .product-list.two ul li {
+    margin: 0 57px 0 auto;
+  }
 }
 
 .product-list ul li:hover {
@@ -756,6 +838,7 @@ nav ul .header-action a.login {
   font-size: 15px;
   /*color: #02264d;*/
   color: #fff;
+  margin-bottom: 24px;
 }
 
 .product-list.one li:nth-child(1) {

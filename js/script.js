@@ -21,7 +21,25 @@ $(window).scroll(function() {
     if (scroll > 200) {
         $("header").addClass("header-shadow");
     }
+
     else {
         $("header").removeClass("header-shadow");
     }
 });
+
+
+$(document).on("click hover", "#drop-list", function() {
+    $("header").css('height', "245px");
+    $(".service-dropdown").css('display', "block");
+    $("header.home").css('background', "linear-gradient(180deg,#005bea,#005bea)");
+});
+
+
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+
