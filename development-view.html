@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/4edc2437b2.js"></script>
+    <script src="https://unpkg.com/flickity@1/dist/flickity.pkgd.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/flickity@1/dist/flickity.css">
 </head>
 <body>
     <header id="header">
@@ -63,42 +65,44 @@
         </div>
     </header>
 
-    <!--<section class="hero d-padding bg-light">
-        <div class="wrapper">
-            <div class="hero-content event-summary grid">
-                <div class="col-half text-left" data-aos="fade-up">
-                    <h1 class="text-blue">Featured Events</h1>
-                    <p>FT Investment Management Summit Europe 2017 Finding Yield amid Uncertainty</p>
-                    <h4 class="venue-date">London | 28 September 2017.</h4>
-
-                    <div class="event-speakers big">
-                        <h5>Speakers:</h5>
-                        <ul>
-                            <li>
-                                <img src="img/speaker1.png">
-                            </li>
-
-                            <li>
-                                <img src="img/speaker2.png">
-                            </li>
-
-                            <li>
-                                <img src="img/speaker3.png">
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-half text-right" data-aos="fade-up" style="position:relative;"> 
-                    <img src="img/event-img-big.png" class="hero-image event" alt="">
-                </div>
-            </div>
-        </div>
-    </section>-->
-
     <section class="hero d-padding bg-light">
-        <div class="wrapper"> 
-            <div class="dev-image">
-                <img src="img/event-img-big.png" alt="">
+        <div class="wrapper">
+            <div class="gallery">
+                <div class="gallery-cell">
+                    <img src="img/event-img-big.png" alt="" />
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="submerged" />
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="look-out" />
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="freedom tower" />
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" alt="drizzle" />
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" alt="cat nose" />
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" alt="like a meteor" />
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" alt="golden hour" />
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" alt="flight formation" />
+                </div>
             </div>
         </div>
     </section>
@@ -137,7 +141,7 @@
                     <h5><span class="text-blue">Floors: </span> 15</h5>
                     <h5><span class="text-blue">Size: </span> 11,560m²</h5>
                     <h5><span class="text-blue">Use: </span> Office</h5>
-                    <h5><span class="text-blue">Developers: </span> Eris Property Group & Sogenal Oil and Gas</h5>
+                    <h5><span class="text-blue">Developer: </span> <a href="developer-info.html" class="developer-link"> Eris Property Group & Sogenal Oil and Gas</a></h5>
 
                     <h5><span class="text-blue">Investor and Fund: </span> Momentum Africa real Estate Fund</h5>
                     <h5><span class="text-blue">Architects: </span> Boogertman & Partners Architects in collaboration with James Curbit Architects</h5>
@@ -217,6 +221,24 @@
         </div>
     </section>
 
+    <section class="hero hero-small subscribe bg-colored">
+        <div class="wrapper">
+            <div class="hero-content">
+                <div class="centered-text text-center" data-aos="fade-up">
+                    <h1 class="text-light">Stay in the know</h1>
+                    <p class="text-light">Real insights about the lastest in the industry. Don’t worry. We won’t spam you or sell your email to third parties.</p>
+                    <br>
+                    <div>
+                        <form class="flexbox">
+                            <input type="email" name="" placeholder="">
+                            <a class="button white" href="">Subscribe</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="bg-light">
         <div class="wrapper">
             <div class="footer-links grid">
@@ -225,16 +247,15 @@
                         <h4>Company</h4>
                         <li><a href="about.html">About us</a></li>
                         <li><a href="">Vesper Africa</a></li>
-                        <li><a href="directory.html">Directory</a></li>
                     </ul>
                 </div>
 
                 <div class="col-quater">
                     <ul>
                         <h4>Website</h4>
-                        <li><a href="">FAQs</a></li>
-                        <li><a href="">Terms & Condition</a></li>
-                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="terms.html">Terms & Condition</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
 
@@ -277,6 +298,19 @@
         </div>
     </footer>
 
+    <div class="back-to-top hvr-float" id="back-to-top">
+        <p>
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        </p>
+    </div>
+
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+        $( function() {
+            var $gallery = $('.gallery').flickity({
+                cellSelector: '.gallery-cell'
+            })
+        });
+    </script>
 </body>
 </html>

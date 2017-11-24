@@ -276,12 +276,6 @@ nav a, nav li {
 
 @media only screen and (min-width:320px) {
   nav ul li {
-    line-height: 30px;
-  }
-}
-
-@media only screen and (min-width:375px) {
-  nav ul li {
     line-height: 40px;
   }
 }
@@ -470,7 +464,11 @@ nav ul .header-action a.login {
 
 @media only screen and (min-width :769px) {
   .hero-small {
-    padding: 100px 0 150px
+    padding: 100px 0 150px;
+  }
+
+  .hero-small.news {
+    padding: 100px 0 100px;
   }
 }
 
@@ -881,8 +879,7 @@ nav ul .header-action a.login {
   width: 172px;
   height: 172px;
   border-radius: 100%;
-  background-color: rgba(2, 49, 100, 0.5);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #fff;
   display: table;
 }
 
@@ -899,7 +896,7 @@ nav ul .header-action a.login {
 }
 
 .multiple-industries ul li a {
-  color: #fff;
+  color: #005bea;
   font-size: 1.125em;
   display: table-cell;
   vertical-align: middle;
@@ -950,8 +947,8 @@ footer .col-quater ul li {
   color: #6e6e6e;
   font-size: 1em;
   line-height: 1.75rem;
-  padding-bottom: .75em;
-  padding-top: .75em
+  padding-bottom: .35em;
+  padding-top: .35em
 }
 
 footer .col-quater ul li.address {
@@ -984,6 +981,19 @@ footer .col-quater ul li a img:hover svg {
 
 footer .copyright {
   padding-top: 8px
+}
+
+@media only screen and (min-width :320px) {
+  footer .copyright {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width :1250px) {
+  footer .copyright {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width :768px) {
@@ -1154,7 +1164,7 @@ footer .copyright li a:hover {
 
 .news-list ul h4 {
   margin-bottom: 8px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .news-list ul li {
@@ -1167,7 +1177,7 @@ footer .copyright li a:hover {
 }
 
 .news-list ul li h4 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
   color: #636b6f;
   margin-bottom: 5px;
@@ -1287,6 +1297,14 @@ hr {
   .hero-small.about {
       padding: 100px 0 0px;
   }
+
+  .developments {
+    padding: 80px 0;
+  }
+}
+
+.team {
+  padding: 50px 0;
 }
 
 .team h1 {
@@ -1662,12 +1680,12 @@ label.check {
 }
 
 .back {
-  font-size: 15px;
   margin-bottom: 50px;
 }
 
 .back a {
   color: #02264d;
+  font-size: 16px;
 }
 
 .recommend-title {
@@ -1848,9 +1866,8 @@ label.check {
   padding: 10px;
 }
 
-.filter-input input {
-
-
+.filter-input.dev {
+  width: 100%;
 }
 
 .filter-input input::-webkit-input-placeholder {
@@ -1931,7 +1948,7 @@ section.d-padding h1 {
 }
 
 .search-info {
-  width: 300px;
+  width: 400px;
   background-color: #D5EEFF;
   height: 0%;
   padding: 32px;
@@ -1957,16 +1974,28 @@ section.d-padding h1 {
   height: 0%;
 }
 
+.premium-tier.n-p {
+  margin-top: 0px;
+}
+
 @media only screen and (max-width: 991px) {
   .premium-tier {
     width: 100%;
     margin-top: 200px;
   }
+
+  .premium-tier.m-p {
+    margin-top: 250px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .premium-tier {
-    margin-top: 280px;
+    margin-top: 340px;
+  }
+
+  .premium-tier.m-p {
+    margin-top: 400px;
   }
 }
 
@@ -2059,7 +2088,7 @@ section.d-padding h1 {
   margin-right: 48px;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1250px) {
   .product-tools ul li:last-of-type {
     margin-bottom: 0px;
   }
@@ -2188,7 +2217,7 @@ section.d-padding h1 {
   }
 }
 
-.dev-info h1 {
+.dev-info h1, .developer-info h1 {
   font-size: 50px;
   font-weight: bold;
   line-height: 1.4;
@@ -2198,7 +2227,7 @@ section.d-padding h1 {
 }
 
 @media only screen and (max-width: 991px) {
-  .dev-info h1 {
+  .dev-info h1, .developer-info h1 {
     font-size: 36px;
   }
 }
@@ -2327,6 +2356,7 @@ section.d-padding h1 {
 .news-summary h6 {
   font-size: 24px;
 }
+
 @media only screen and (max-width: 767px) {
   .news-summary h6 {
     font-size: 16px;
@@ -2337,4 +2367,167 @@ section.d-padding h1 {
   margin-bottom: 10px;
 }
 
+.accordion-holder {
+  width: 70%;
+  margin: 40px auto 0;
+}
 
+@media only screen and (max-width: 767px) {
+  .accordion-holder {
+    width: 95%;
+  }
+}
+
+.accordion {
+  margin: 0 auto 70px;
+  padding-top: 24px;
+  list-style: none!important;
+}
+
+.accordion-holder h1 {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+  .accordion-holder h1 {
+    font-size: 32px;
+  }
+}
+
+.accordion-title{
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.accordion li {
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-right: 0;
+  margin-bottom: 20px
+}
+
+.accordion li p {
+  display: none;
+}
+
+.accordion a {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 3;
+  font-size: 16px;
+  user-select: none;
+}
+
+.accordion a.inline-links{
+  line-height: 1.7em;
+  display: inline-block;
+}
+
+
+.accordion a:after {
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid #858585;
+  border-bottom: 1px solid #858585;
+  position: absolute;
+  right: 10px;
+  content: " ";
+  top: 17px;
+  transform: rotate(-45deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.accordion p {
+  color: #808080;
+  font-size: 1em;
+  line-height: 1.7em;
+  padding: 10px;
+}
+
+.back-to-top{
+  background: #0089ff;
+  width: 38.9px;
+  height: 38.9px;
+  border-radius: 100%;
+  position: fixed;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media only screen and (min-width : 320px){
+    .back-to-top{
+        right: 10px;
+        bottom: 120px;
+    }
+}
+
+@media only screen and (min-width : 768px){
+    .back-to-top{
+        right: 44px;
+    }
+}
+
+.back-to-top p{
+    color: #fff;
+    font-size: 1em;
+    margin-top: 3px;
+    text-align: center;
+    transition: all ease-in .4s;
+}
+
+.back-to-top.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.back-to-top.fade-out {
+  opacity: 1;
+}
+
+.developer-link {
+  text-decoration: underline;
+  color: #34495d;
+}
+
+.see-all {
+  margin-top: 24px;
+  display: block;
+  text-decoration: underline;
+  color: #02264d;
+}
+
+.gallery {
+  background: transparent;
+}
+
+.gallery-cell {
+  width: 100%;
+  height: 400px;
+}
+
+.gallery-cell img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.flickity-page-dots .dot {
+  background: #005bea!important;
+}
+
+.flickity-page-dots {
+  bottom: -60px!important;
+}
+
+.author-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.news-list.author {
+  width: 100%;
+}
