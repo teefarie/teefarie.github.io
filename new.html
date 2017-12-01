@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fari Oluwatoyin - Product Designer</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Wemoove: The future of Lagos public transit.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://use.fontawesome.com/12e0a6f085.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/reuse.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+</head>
+<body data-hijacking="off" data-animation="parallax" id="page-top" data-spy="scroll" data-target=".header">
+    <div id="preloader new">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <header class="header">
+        <div class="wrapper">
+            <div class="logo">
+                <div class="icon">
+                    <a href="/">
+                        <img src="img/logo.png">
+                    </a>
+                </div>
+            </div>
+        
+            <div class="navigation">
+                <nav class="main">
+                    <ul>
+                        <li><a href="#case-studies" class="page-scroll">Case studies</a></li>
+                        <li><a href="me" class="page-scroll">Fari</a></li>
+                        <li><a href="#work-with-me" class="page-scroll">Work with me</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>    
+    </header>
+
+    
+
+    
+
+    <div class="back-to-top hvr-float" id="back-to-top">
+        <p>
+            <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+        </p>
+    </div>
+
+    <script type="text/javascript">
+        $(window).on('load', function() { 
+            $('#status').fadeOut();
+            $('#new ').delay(350).fadeOut('slow');
+            $('body').delay(350).css({'overflow':'visible'});
+        })
+    </script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+            var offset = 500,
+                offset_opacity = 1200,
+                scroll_top_duration = 700,
+                $back_to_top = $('.back-to-top');
+
+            $(window).scroll(function(){
+                ( $(this).scrollTop() > offset ) ?
+                 $back_to_top.addClass('visible') : 
+                 $back_to_top.removeClass('visible fade-out');
+                if( $(this).scrollTop() > offset_opacity ) { 
+                    $back_to_top.addClass('fade-out');
+                }
+            });
+
+            $back_to_top.on('click', function(event){
+                event.preventDefault();
+                $('body,html').animate({
+                    scrollTop: 0 ,
+                    }, scroll_top_duration
+                );
+            });
+
+        });
+    </script>
+    
+    <script>
+        AOS.init({
+          offset: 100,
+          duration: 800,
+          easing: 'ease',
+          delay: 300,
+          once: true,
+        });
+    </script>
+</body>
+</html>

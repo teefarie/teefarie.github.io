@@ -11,18 +11,18 @@
       ga('send', 'pageview');
 
     </script>
-    <title>Portfolio of Fari Oluwatoyin - Product Designer.</title>
+    <title>Fari Oluwatoyin - Product Designer.</title>
     <meta charset="utf-8">
     <meta http-equiv=X-UA-Compatible content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-    <meta name="description" content="I solve user problems either by improving experiences or the usability of interfaces.">
-    <meta property=og:url content=http://faritoyin.com/>
-    <meta property=og:title content="Portfolio of Fari Oluwatoyin - Product Designer.">
+    <meta name="description" content="I'm just a girl trying to find a balance between life, learning and making a difference.">
+    <meta property=og:url content=http://faritoyin.com/fari>
+    <meta property=og:title content="Fari Oluwatoyin - Product Designer.">
     <meta property=og:image content=images/share.png><!--change it-->
-    <meta property=og:description content="I solve user problems either by improving experiences or the usability of interfaces.">
+    <meta property=og:description content="I'm just a girl trying to find a balance between life, learning and making a difference.">
     <meta name=twitter:card content=summary_large_image>
-    <meta name=twitter:title content="Portfolio of Fari Oluwatoyin - Product Designer.">
-    <meta name=twitter:description content="I solve user problems either by improving experiences or the usability of interfaces.">
+    <meta name=twitter:title content="Fari Oluwatoyin - Product Designer.">
+    <meta name=twitter:description content="I'm just a girl trying to find a balance between life, learning and making a difference.">
     <meta name=twitter:image:src content=images/share.png><!--change it-->
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -57,68 +57,21 @@
         </div>    
     </nav>
 
-    <section id="hero" class="visible bg-white full-height">
+    <section id="" class="visible bg-white full-height">
         <div class="animating-div">  
             <div class="wrapper">
-                <div class="middle-text" data-aos="fade-up">
-                    <h1 class="large">Product Designer.</h1>
-                    <p>I solve user problems either by improving experiences or the usability of interfaces.</p>
-                </div>
+                
             </div> 
         </div> 
     </section>
 
-    <section id="case-studies" class="bg-fade-white">
+    <section id="" class="bg-fade-white">
         <div class="wrapper">
-            <div id="case-studies-list">
-                <ul>
-                    <li data-aos="fade-up">
-                        <div class="case-study-info">
-                            <a href="wemoove.html">
-                                <h6>01.</h6>
-                                <h3>Perfecting the commute experience.</h3>
-                                <p>Reimagining how people move from one place to the next.</p>
-                                <a href="wemoove.html" class="view-case-study view-wemoove animated-line">View case study</a>
-                            </a>
-                        </div>
+        </div>
+    </section>
 
-                       <div class="case-study-image big">
-                           <a href="wemoove.html">
-                               <img src="img/case-study-list-wemoove.png">
-                           </a>
-                       </div> 
-
-                       <div class="case-study-image small">
-                           <a href="wemoove.html">
-                               <img src="img/case-study-list-wemoove.png">
-                           </a>
-                       </div> 
-                    </li>
-
-                    <li data-aos="fade-up">
-                        <div class="case-study-info">
-                            <a href="wemoove.html">
-                                <h6>02.</h6>
-                                <h3>An effortless search experience.</h3>
-                                <p>Redesigning the experience of how people search for an apartment and flatmate.</p>
-                                <a href="" class="view-case-study view-new animated-line">View case study</a>
-                            </a>
-                        </div>
-
-                       <div class="case-study-image big">
-                            <a href="">
-                                <img src="img/case-study-list-new.png">
-                            </a>
-                       </div> 
-
-                       <div class="case-study-image small">
-                            <a href="">
-                                <img src="img/case-study-list-new.png">
-                            </a>
-                       </div> 
-                    </li>
-                </ul>
-            </div>
+    <section id="case-studies" class="bg-white">
+        <div class="wrapper">
         </div>
     </section>
 
@@ -126,6 +79,7 @@
         <div class="animating-div">
             <div class="wrapper">
                 <div class="middle-text" data-aos="fade-up">
+                    <!--<h5 class="pre-text">Work with me</h5>-->
                     <h1 class="large"><a href="mailto:toyinfari@gmail.com" class="forward-animated-line"><strong>holla@faritoyin.com</strong></a></h1>
                     <p>If you want to collaborate, talk about a product, or just say hello, feel free to get in touch. I’ll be happy to hear your thoughts.</p>
                 </div>
@@ -165,11 +119,11 @@
     <footer>
         <div class="wrapper">
             <div class="">
-                <p>Design and content © Fari Oluwatoyin 2018.</p>
+                <p>© Fari Oluwatoyin 2018.</p>
             </div>
         
             <div class="quote right">
-                <!--<p>“Life is hard but great design makes life a little bit less hard…”</p>-->
+                <p>“Motion gives meaning…”</p>
             </div>
         </div>
     </footer>
@@ -180,6 +134,83 @@
         </p>
     </div>
 
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+        $(window).on('load', function() { 
+            $('#status').fadeOut();
+            $('#preloader').delay(350).fadeOut('slow');
+            $('body').delay(350).css({'overflow':'visible'});
+        })
+    </script>
+
+    <script type="text/javascript">
+        $(window).scroll(function() {     
+            var scroll = $(window).scrollTop();
+            if (scroll > 200) {
+                $("nav").addClass("nav-border");
+            }
+            else {
+                $("nav").removeClass("nav-border");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+            var offset = 500,
+                offset_opacity = 1200,
+                scroll_top_duration = 700,
+                $back_to_top = $('.back-to-top');
+
+            $(window).scroll(function(){
+                ( $(this).scrollTop() > offset ) ?
+                 $back_to_top.addClass('visible') : 
+                 $back_to_top.removeClass('visible fade-out');
+                if( $(this).scrollTop() > offset_opacity ) { 
+                    $back_to_top.addClass('fade-out');
+                }
+            });
+
+            $back_to_top.on('click', function(event){
+                event.preventDefault();
+                $('body,html').animate({
+                    scrollTop: 0 ,
+                    }, scroll_top_duration
+                );
+            });
+
+        });
+    </script>
+    
+    <script>
+        AOS.init({
+          offset: 100,
+          duration: 800,
+          easing: 'ease',
+          delay: 300,
+          once: true,
+        });
+    </script>
+
+    <script type="text/javascript">
+        function checkOffset() {
+            if($('nav').offset().top + $('nav').height() <= $('footer').offset().top - 0)
+            $('nav').css('position', 'absolute');
+            if($(document).scrollTop() + window.innerHeight < $('footer').offset().top)
+            $('nav').css('position', 'fixed'); // restore when you scroll up
+        }
+        $(document).scroll(function() {
+            checkOffset();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).on('click', 'a[href^="#"]', function (event) {
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
+        });
+    </script>
 </body>
 </html>
