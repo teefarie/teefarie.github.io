@@ -798,12 +798,6 @@ nav ul .header-action a.login {
   }
 }
 
-@media only screen and (max-width :500px) {
-  .banks {
-    display: block;
-  }
-}
-
 .bank {
   padding: 20px 40px 20px 40px;
   height: 140px;
@@ -823,7 +817,7 @@ nav ul .header-action a.login {
 
 @media only screen and (max-width :500px) {
   .bank {
-    margin :0 auto;
+    width: 50%;
   }
 }
 
@@ -836,6 +830,11 @@ nav ul .header-action a.login {
   width: 60px;
 }
 
+.bank img.x-big {
+  width: 90px;
+}
+
+
 
 .testimonial {
   padding: 10px 0 0;
@@ -845,7 +844,8 @@ nav ul .header-action a.login {
 
 @media only screen and (max-width :768px) {
   .testimonial {
-    padding: 0
+    padding: 0;
+    width: 100%;
   }
 }
 
