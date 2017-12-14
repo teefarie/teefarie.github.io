@@ -129,6 +129,14 @@ section {
   text-align: right;
 }
 
+.text-blue {
+  color: #02558B;
+}
+
+.text-orange {
+  color: #FC6304;
+}
+
 .right{
   float: right;
 }
@@ -143,6 +151,7 @@ section {
   margin-bottom: 12px;
   display: inline-block;
   vertical-align: middle;
+  font-family: 'Circular Medium', sans-serif;
 }
 
 header {
@@ -610,7 +619,6 @@ nav ul .header-action a.login {
   -webkit-box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.2), 0 0 0 0 rgba(0,0,0,0.3);
   box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.2), 0 0 0 0 rgba(0,0,0,0.3);
   width: 450px;
-  height: 493px;
   background-color: #fff;
   margin: 0 auto;
   padding: 50px 50px;
@@ -626,106 +634,140 @@ nav ul .header-action a.login {
   .calculator {
     margin-top: 40px;
     padding: 25px 25px;
+    text-align: left;
   }
+}
+
+.calculator p, .calculator span {
+  display: inline-block;
+  margin-top: 0;
+  font-size: .875em;
+  font-family: 'Circular Medium', sans-serif;
+}
+
+.input-holder {
+  margin-bottom: 32px;
 }
 
 .input-group {
     position: relative;
     display: table;
     border-collapse: separate;
-    margin-bottom: 32px;
+    margin-bottom: 10px;
     width: 100%;
-}
-
-.input-group .form-control {
-    position: relative;
-    z-index: 2;
-    float: left;
-    width: 100%;
-    margin-bottom: 0;
-}
-
-.form-control {
-    height: 65px;
-    padding: 6px 12px;
-    font-size: 28px;
-    line-height: 1.42857143;
-    color: #333333;
+    padding: 32px 12px 16px;
     background-color: #fff;
     background-image: none;
     border: 1px solid #DDDDDD;
     outline: none;
 }
 
-.input-group .button {
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+     color: #333;
+    font-family: 'Circular Bold', sans-serif;
+    font-size: 1.5em;
+    padding-right: 24px;
+}
+
+.form-control {
+    border: none;
+    outline: none;
+    width: 50%;
+}
+
+::-webkit-input-placeholder {
+  color: #333;
+}
+
+h6 {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  color: #333;
+  z-index: 10;
+  font-size: 9.5px;
+}
+
+.calculator .button {
   display: block;
   text-align: center;
   height: 65px;
-  padding: 6px 12px;
-}
-
-@media only screen and (max-width :767px) {
-  .form-control {
-    height: 50px;
-  }
-
-  .input-group .button {
-    height: 50px;
-  }
-}
-
-.input-group .form-control:first-child {
-  border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+  padding: 17px 12px 16px;
+  font-size: 1em;
 }
 
 .input-group-addon {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1;
-    color: #555;
-    text-align: center;
-    background-color: #eee;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    position: absolute;
-    right: 100px;
-    z-index: 5;
-    outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  position: absolute;
+  right: 10px;
+  z-index: 5;
+  outline: none;
+  border: none;
 }
 
-.input-group-addon {
+.select-style {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  outline: none;
 }
 
-.input-group .form-control, .input-group-addon, {
-    display: table-cell;
+.select-style select {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+  font-size: .975em;
+  outline: none;
+  text-align: right;
 }
 
 #order {
-    padding: 6px 8px;
-    border-left: 0;
+  padding: 6px 8px;
+  border-left: 0;
+  max-width: 90%;
 }
-.select-style {
-    width: 35px;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    vertical-align: middle;
-}
-.select-style select {
+
+@media only screen and (max-width :991px) {
+  .input-group-addon  {
+    position: relative;
+    left: 0px;
+    margin-top: 24px;
+    z-index: 0;
+  }
+
+  .input-group {
+    padding: 16px 12px 16px;
+  } 
+
+  .input-group .form-control {
+    padding-right: 0;
+    padding-bottom: 16px;
+  }
+
+  .select-style {
+    width: 100%
+  }
+
+  .select-style select {
+    text-align: left;
     width: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: transparent;
-    background-image: none;
-    border: none;
-    box-shadow: none;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+  }
+
+  #order {
+    padding: 6px 8px 6px 0;
+    max-width: 100%;
+  }
 }
-
-
 
 @media only screen and (max-width :600px) {
   .video iframe {
