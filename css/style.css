@@ -769,8 +769,13 @@ h6 {
   }
 }
 
+video {
+  width: 560px;
+  height: 315px;
+}
+
 @media only screen and (max-width :600px) {
-  .video iframe {
+  video {
     max-width: 90%;
     margin: 0 auto;
   }
