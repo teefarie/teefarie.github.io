@@ -780,33 +780,180 @@ h6 {
   color: #fff;
 }
 
-.gallery {
-  background: transparent;
-}
-
-.gallery-cell {
+.slider {
   width: 100%;
-  height: auto;
+  position: relative;
+  height: 500px;
+  padding: 0 0;
 }
 
-.gallery-cell img {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
+.slItems {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-.flickity-page-dots .dot {
-  background: #fff!important;
+.slItem {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+  backface-visibility: hidden;
 }
 
-.flickity-page-dots {
-  bottom: 0!important;
+.slText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  color: #fff;
 }
 
-.flickity-prev-next-button {
+.slText h3, .slText p {
+  color: #fff;
+}
+
+@media only screen and (min-width: 320px) {
+  .slText h3, .slText p  {
+      width: 90%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .slText h3, .slText p  {
+      width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .slText {
+      width: 100%;
+  }
+}
+
+.slider [class*="ctrl"] {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  font-size: 85px;
+  font-weight: bold;
+  margin-top: -42.5px;
+  cursor: pointer;
   display: none;
 }
 
+.ctrlNext {
+  right: 50px;
+}
+
+.ctrlPrev {
+  left: 50px;
+}
+
+.slItem.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+.next, .prev {
+  transition: transform 0.7s ease-in-out;
+  -webkit-transition: -webkit-transform 0.7s ease-in-out;
+  -moz-transition: -moz-transform 0.7s ease-in-out;
+  -o-transition: -o-transform 0.7s ease-in-out;
+  -ms-transition: -ms-transform 0.7s ease-in-out;
+}
+
+.slItem.nextItem {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(100%,0, 0);
+  -webkit-transform: translate3d(100%,0,0);
+  -moz-transform: translate3d(100%,0,0);
+  -o-transform: translate3d(100%,0,0);
+  -ms-transform: translate3d(100%,0,0);
+}
+
+.slItem.nextItem.next, .slItem.prevItem.prev {
+  transform: translate3d(0,0);
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+.slItem.active.next {
+  transform: translate3d(-100%,0,0);
+  -webkit-transform: translate3d(-100%,0,0);
+  -moz-transform: translate3d(-100%,0,0);
+  -o-transform: translate3d(-100%,0,0);
+  -ms-transform: translate3d(-100%,0,0);
+}
+
+.slItem.prevItem {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(-100%,0,0);
+  -webkit-transform: translate3d(-100%,0,0);
+  -moz-transform: translate3d(-100%,0,0);
+  -o-transform: translate3d(-100%,0,0);
+  -ms-transform: translate3d(-100%,0,0);
+}
+
+.slItem.active.prev {
+  transform: translate3d(100%,0,0);
+  -webkit-transform: translate3d(100%,0,0);
+  -moz-transform: translate3d(100%,0,0);
+  -o-transform: translate3d(100%,0,0);
+  -ms-transform: translate3d(100%,0,0);
+}
+
+.slDots {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%,  0);
+  -ms-transform: translate(-50%, 0);
+}
+
+.slDotsSingle {
+  width: 13px;
+  height: 13px;
+  float: left;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.slDotsSingle.active {
+  background: #FFFFFF;
+}
+
+.slDotsSingle:hover {
+  background: #D0D0D0;
+  border-color: #D0D0D0;
+}
 .banks {
   display: -webkit-box;
   display: -ms-flexbox;
