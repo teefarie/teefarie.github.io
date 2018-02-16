@@ -180,6 +180,12 @@ p {
   margin-bottom: 150px;
 }
 
+@media only screen and (max-width : 1023px) {
+  #notify-content {
+    margin-bottom: 100px;
+  }
+}
+
 #social ul li {
   display: inline-block;
   margin-right: 64px;
