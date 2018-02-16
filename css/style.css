@@ -88,7 +88,7 @@ h3 {
 }
 
 #info, #notify {
-  padding: 24px;
+  padding: 32px;
 }
 
 @media only screen and (min-width : 320px) {
