@@ -1,7 +1,7 @@
 @import 'type.css';
 @import 'reset.css';
 body {
-  font-family: 'Circular', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   background-color: #fff;
   overflow-x: hidden;
 }
@@ -48,7 +48,7 @@ h3 {
 }
 
 p {
-  font-family: 'Merriweather' , serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 .bg-light {
