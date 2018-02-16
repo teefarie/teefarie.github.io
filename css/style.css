@@ -147,6 +147,13 @@ h3 {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width : 1023px) {
+  #content h1, #notify-content h1 {
+    font-size: 56px;
+    line-height: 57px;
+  }
+}
+
 #content p, #notify-content p {
   font-size: 20px;
   line-height: 31px;
