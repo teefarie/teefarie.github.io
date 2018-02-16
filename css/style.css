@@ -196,6 +196,10 @@ p {
    #social ul li {
     margin-right: 40px;
   }
+
+  #social ul li a {
+    font-size: .75em;
+  }
 }
 
 input {
