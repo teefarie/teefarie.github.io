@@ -47,6 +47,10 @@ h3 {
   font-family: 'Circular Medium', sans-serif;
 }
 
+p {
+  font-family: 'Merriweather' , serif;
+}
+
 .bg-light {
   background-color: #fff;
 }
