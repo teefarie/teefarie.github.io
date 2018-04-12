@@ -2634,10 +2634,21 @@ span.black{
 	}
 }
 
-@media only screen and (min-width :768px) {
+@media only screen and (min-width :767px) {
 	.circle-items ul li {
 		width: 70%
 	}
+}
+
+@media only screen and (min-width :769px) {
+	.circle-items ul li {
+		width: 30%
+	}
+}
+
+.circle-items ul li {
+	text-align: center;
+	padding: 0 24px;
 }
 
 
