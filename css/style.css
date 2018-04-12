@@ -738,7 +738,7 @@ nav ul .header-action a.login {
 }
 
 .centered-text p {
-	margin: 0 auto 40px
+	margin: 0 auto 24px
 }
 
 @media only screen and (min-width :320px) {
@@ -1629,10 +1629,10 @@ div.content {
 
 .big-cards-icon {
 	width: 62px;
+	margin-right: 32px;
 }
 
 .big-cards-info {
-	margin-left: 32px;
 	flex: 1;
 }
 
@@ -1661,7 +1661,7 @@ div.content {
 @media only screen and (min-width :1199px) {
 	.big-cards, .project-card {
 		display: inline-block;
-		margin: 0 18px 32px 0;
+		margin: 0 32px 32px 0;
 		width: 42%
 	}
 }
@@ -1672,6 +1672,16 @@ div.content {
 	height: 400px;
 	margin-bottom: 72px;
 }
+
+.big-project-card {
+	width: 100%;
+	margin: 56px auto;
+}
+
+.big-project-card img {
+	max-width: 100%;
+}
+
 
 /*@media only screen and (min-width :768px) {
 	.big-cards {
@@ -1689,16 +1699,31 @@ div.content {
 	margin-bottom: 4px
 }
 
+@media only screen and (max-width :767px) {
+	.big-cards h3  {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
 .big-cards.value h3 {
 	margin-bottom: 10px
 }
 
 .big-cards p {
+	font-size: 1em;
 	/*f
 	line-height: 24px;
 	/*margin-bottom: 40px
-	font-size: 1em;*/
+	*/
 }
+
+@media only screen and (max-width :767px) {
+	.big-cards p {
+		font-size: .875em;
+	}
+}
+
 
 .testimonial.clients-testimonial {
 	padding: 0
@@ -2582,7 +2607,6 @@ span.black{
 	}
 
 	.circle-items ul li {
-		width: 90%;
 		margin: 0 auto 72px;
 	}
 
@@ -2591,6 +2615,30 @@ span.black{
 	}
 }
 
+
+@media only screen and (min-width :320px) {
+	.circle-items ul li {
+		width: 100%
+	}
+}
+
+@media only screen and (min-width :480px) {
+	.circle-items ul li {
+		width: 90%
+	}
+}
+
+@media only screen and (min-width :600px) {
+	.circle-items ul li {
+		width: 80%
+	}
+}
+
+@media only screen and (min-width :768px) {
+	.circle-items ul li {
+		width: 70%
+	}
+}
 
 
 .media-text--horizontal .media-text__wrapper {
