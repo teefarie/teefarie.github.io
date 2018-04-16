@@ -101,11 +101,24 @@ p {
 	}
 }
 
-@media(min-width:970px) {
+@media(min-width:860px) {
 	.wrapper {
-		width: 950px
+		width: 800px
 	}
 }
+
+@media(min-width:970px) {
+	.wrapper {
+		width: 900px
+	}
+}
+
+@media(min-width:1024px) {
+	.wrapper {
+		width: 1000px
+	}
+}
+
 
 @media(min-width:1250px) {
   .wrapper {
@@ -202,7 +215,8 @@ p {
 	background-color: transparent;
 	border: 1.5px solid #03a2dc;
 	color: #03a2dc;
-	font-size: 14px
+	font-size: .75em;
+	padding: 12px 20px;
 }
 
 .stroked-button:hover {
@@ -222,7 +236,7 @@ header {
 
 @media only screen and (max-width:992px) {}
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:1080px) {
 	header {
 		padding: 0 54px
 	}
@@ -235,7 +249,7 @@ header {
 	padding: 1em
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:1080px) {
 	.menu {
 		display: inline-block;
 		width: 46px;
@@ -266,7 +280,7 @@ nav {
 	font: 1em sans-serif
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:1080px) {
 	nav {
 		display: none;
 		position: absolute;
@@ -279,7 +293,7 @@ nav {
 	}
 }
 
-@media only screen and (min-width:993px) {
+@media only screen and (min-width:1081px) {
 	nav {
 		display: block!important
 	}
@@ -287,7 +301,7 @@ nav {
 
 nav ul li {
 	display: inline-block;
-	font-size: .80em;
+	font-size: .75em;
 	line-height: 1.65;
 	font-weight: 400;
 	text-decoration: none;
@@ -296,7 +310,7 @@ nav ul li {
 	padding: 28px 18px 0;
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:1080px) {
 	nav ul li {
 		display: block;
 		margin: .6em 0!important;
@@ -312,7 +326,7 @@ nav a {
 	color: #AEB1B6;
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:1080px) {
 	nav a {
 		font-family: "Akkurat", sans-serif;
 		-webkit-tap-highlight-color: transparent
@@ -476,7 +490,7 @@ nav ul .header-action a.login {
 
 .grid.center-grid {
 	justify-content: center;
-	margin-top: 64px;
+	margin-top: 40px;
 }
 
 @media only screen and (max-width :1199px) {
@@ -487,7 +501,7 @@ nav ul .header-action a.login {
 
 @media only screen and (min-width:320px) {
 	.col-half {
-		width: 90%;
+		/*width: 90%;*/
 		text-align: center;
 		margin: 0 auto
 	}
@@ -496,6 +510,13 @@ nav ul .header-action a.login {
 	}
 	.small-grid .col-big {
 		width: 100%
+	}
+}
+
+@media only screen and (min-width:600px) {
+	.col-half p {
+		width: 80%;
+		margin: 0 auto;
 	}
 }
 
@@ -514,6 +535,11 @@ nav ul .header-action a.login {
 		text-align: left;
 		margin: 0
 	}
+
+	.col-half p {
+		margin: 0;
+	}
+
 	.small-grid .col-small {
 		width: 30%;
 		display: inline-block
@@ -606,7 +632,7 @@ nav ul .header-action a.login {
 	}
 }
 
-@media only screen and (min-width :1200px) {
+@media only screen and (min-width :1450px) {
 	.hero .hero-content .centered-text h1 {
 		width: 75%;
 	}
@@ -860,8 +886,13 @@ nav ul .header-action a.login {
 }
 
 .testimonial .card p {
-	font-size: 16px;
-	line-height: 29px
+	font-size: 1em;
+}
+
+@media only screen and (max-width:600px) {
+	.testimonial .card p {
+		font-size: .875em;
+	}
 }
 
 @media only screen and (max-width:1024px) {
@@ -894,6 +925,12 @@ nav ul .header-action a.login {
 
 .talent-info {
 	margin-top: 48px
+}
+
+@media only screen and (max-width:991px) {
+	.talent-info {
+		margin-top: 24px;
+	}
 }
 
 .talent-info h4 {
@@ -986,7 +1023,7 @@ nav ul .header-action a.login {
 	}
 }
 
-.call-to-action .cta h1 {
+.call-to-action .cta h1, .half-cta h3 {
 	font-size: 48px;
 	line-height: 58px;
 	color: #2a2a2a;
@@ -995,7 +1032,7 @@ nav ul .header-action a.login {
 }
 
 @media only screen and (max-width :767px) {
-	.call-to-action .cta h1 {
+	.call-to-action .cta h1, .half-cta h3 {
 		font-size: 32px;
 		line-height: 42px
 	}
@@ -1006,21 +1043,21 @@ nav ul .header-action a.login {
 }
 
 @media only screen and (max-width:600px) {
-	.call-to-action .cta p {
+	.call-to-action .cta p, .half-cta p {
 		width: 90%;
 		margin: 0 auto 24px
 	}
 }
 
 @media only screen and (min-width :600px){
-	.call-to-action .cta p{
+	.call-to-action .cta p, .half-cta p {
 		width: 80%;
 		margin: 0 auto 24px;
 	}	
 }
 
 @media only screen and (min-width :768px) {
-	.call-to-action .cta p {
+	.call-to-action .cta p, .half-cta p  {
 		width: 90%;
 		margin: 0 auto 24px
 	}
@@ -1062,6 +1099,10 @@ nav ul .header-action a.login {
 	margin: 0 auto 28px
 }
 
+.call-to-action.half-cta .cta h3 {
+	margin: 0 auto 16px;
+}
+
 @media only screen and (max-width:600px) {
 	.call-to-action .cta.cta-idea p {
 		width: 90%;
@@ -1069,9 +1110,21 @@ nav ul .header-action a.login {
 	}
 }
 
+.call-to-action .cta p.home-cta {
+	margin: 24px auto 24px
+}
+
 @media only screen and (min-width :1024px) {
-	.call-to-action .cta p.home-cta {
-		margin: 24px auto 24px
+	.call-to-action .centered-text h3,
+	.call-to-action .centered-text p {
+		width: 70%
+	}
+}
+
+@media only screen and (min-width :1200px) {
+	.call-to-action .centered-text h3,
+	.call-to-action .centered-text p {
+		width: 60%
 	}
 }
 
@@ -1118,13 +1171,13 @@ footer .col-quater ul h4 {
 
 @media only screen and (max-width :768px) {
 	footer .col-quater ul h4 {
-		font-size: 14px;
+		font-size: 13px;
 	}
 }
 
 footer .col-quater ul li {
 	color: #808080;
-	font-size: .8125rem;
+	font-size: .8125em;
 	font-family: 'Akkurat-Light', sans-serif;
 	line-height: 1.25em;
 	padding-bottom: .65em;
@@ -1180,7 +1233,7 @@ footer .copyright li a {
 
 @media only screen and (max-width :768px) {
 	footer .copyright li {
-		margin-bottom: 10px;
+		margin-bottom: 6px;
 	}
 
 	footer .copyright li a {
@@ -1618,21 +1671,26 @@ div.content {
 	margin: 0 18px 32px 0
 }
 
-.big-cards>div {
+.t-card {
+	display: inline-block;
+	width: 50%;
+	margin: 0 18px 32px 0
+}
+
+.big-cards>div, .t-card>div {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	-ms-flex-align: center;
-	align-items: center
 }
 
-.big-cards-icon {
+.big-cards-icon, .t-card-icon {
 	width: 62px;
 	margin-right: 32px;
 }
 
-.big-cards-info {
+.big-cards-info, .t-card-info {
 	flex: 1;
 }
 
@@ -1643,10 +1701,16 @@ div.content {
 		width: 90%;
 		padding: 24px;
 	}
+
+	.t-card {
+		display: block;
+		width: 90%;
+		margin: 64px auto 0;
+	}
 }
 
 @media only screen and (min-width :600px) {
-	.big-cards, .project-card {
+	.big-cards, .project-card, .t-card {
 		width: 80%;
 	}
 }
@@ -1656,6 +1720,10 @@ div.content {
 		width: 70%;
 		padding: 32px;
 	}
+
+	.t-card {
+		width: 70%;
+	}
 }
 
 @media only screen and (min-width :1199px) {
@@ -1663,6 +1731,23 @@ div.content {
 		display: inline-block;
 		margin: 0 32px 32px 0;
 		width: 42%
+	}
+
+	.t-card{
+		display: inline-block;
+		margin: 64px 56px 0px 0;
+		width: 45%
+	}
+}
+
+.t-card p {
+	font-size: 1em;
+	margin-top: 10px;
+}
+
+@media only screen and (max-width :767px) {
+	.t-card p {
+		font-size: .875em;
 	}
 }
 
@@ -2576,13 +2661,15 @@ span.black{
 	color: #000;
 }
 
-
-
 .circle-items {
 	margin-top: 80px;
 }
 
-.circle-items ul {
+.four-items {
+	margin-top: 56px;
+}
+
+.circle-items ul, .four-items ul {
 	justify-content: center;
 }
 
@@ -2594,14 +2681,24 @@ span.black{
 
 .circle-items ul li img {
 	margin-bottom: 24px;
+	max-width: 70%;
 }
 
 .circle-items ul li h3 {
 	margin-bottom: 10px;
 }
 
-@media only screen and (max-width :768px) {
+.circle-items ul li p {
+	font-size: 1em;
+}
 
+@media only screen and (max-width :767px) {
+	.circle-items ul li p {
+		font-size: .875em;
+	}
+}
+
+@media only screen and (max-width :768px) {
 	.circle-items {
 		margin-top: 72px;
 	}
@@ -2617,19 +2714,19 @@ span.black{
 
 
 @media only screen and (min-width :320px) {
-	.circle-items ul li {
+	.circle-items ul li, .four-items ul li {
 		width: 100%
 	}
 }
 
 @media only screen and (min-width :480px) {
-	.circle-items ul li {
+	.circle-items ul li, .four-items ul li {
 		width: 90%
 	}
 }
 
 @media only screen and (min-width :600px) {
-	.circle-items ul li {
+	.circle-items ul li, .four-items ul li {
 		width: 80%
 	}
 }
@@ -2643,6 +2740,26 @@ span.black{
 @media only screen and (min-width :769px) {
 	.circle-items ul li {
 		width: 30%
+	}
+}
+
+
+@media only screen and (min-width :767px) {
+	.four-items ul li {
+		width: 50%;
+		margin-bottom: 64px;
+	}
+}
+
+@media only screen and (min-width :1400px) {
+	.circle-items ul li {
+		width: 30%;
+		margin-bottom: 0px;
+	}
+
+	.four-items ul li {
+		width: 25%;
+		margin-bottom: 0px;
 	}
 }
 
