@@ -1155,6 +1155,17 @@ nav ul .header-action a.login {
 	}
 }
 
+.logos {
+	max-width: 70%;
+}
+
+@media only screen and (max-width :600px) {
+	.logos {
+		max-width: 100%;
+	}
+}
+
+
 footer {
 	padding: 80px 0
 }
@@ -2102,6 +2113,17 @@ div.content {
 	-ms-flex-direction: row;
 	flex-direction: row
 }
+
+.flex-width {
+	width: 70%;
+}
+
+@media screen and (max-width:992px) {
+	.flex-width {
+		width: 100%;
+	}
+}
+
 
 @media screen and (min-width:768px) {
 	.team {
