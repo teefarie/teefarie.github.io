@@ -1727,6 +1727,20 @@ div.content {
 	}
 }
 
+@media only screen and (max-width :1249px) {
+	.big-cards-icon img.resize, .t-card-icon img.resize {
+		max-width: 80%;
+	}
+}
+
+@media only screen and (min-width :1250px) {
+	.big-cards-icon img.resize, .t-card-icon img.resize {
+		max-width: 75%;
+		margin-left: 20px;
+	}
+}
+
+
 .big-cards-info, .t-card-info {
 	flex: 1;
 }
