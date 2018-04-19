@@ -2122,9 +2122,8 @@ div.content {
 	width: 85%;
 }
 
-
 @media screen and (max-width:992px) {
-	.flex-width {
+	.flex-width, .flex-width.tribe {
 		width: 100%;
 	}
 }
