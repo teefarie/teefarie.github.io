@@ -314,7 +314,7 @@ nav ul li a:visited {
   display: block;
   text-decoration: none;
   font-family: "CircularStd-Book", sans-serif;
-  color: #AEB1B6;
+  color: #000;
 }
 
 nav ul li a.active {
