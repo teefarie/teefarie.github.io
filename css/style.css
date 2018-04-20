@@ -1954,8 +1954,20 @@ div.content {
 	margin-bottom: 72px;
 }
 
+@media only screen and (max-width :768px) {
+	.case-study-d {
+		display: none;
+	}
+}
+
+@media only screen and (min-width :769px) {
+	.case-study-m {
+		display: none;
+	}
+}
+
 .big-project-card {
-	width: 100%;
+	width: 90%;
 	margin: 56px auto;
 }
 

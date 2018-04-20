@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1392px" height="583px" viewBox="0 0 1392 583" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="768px" height="942px" viewBox="0 0 768 942" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Dyshr</title>
+    <title>Lawyr</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <path d="M324,139.417326 C323.586961,139.539061 323.28535,139.923293 323.28535,140.384733 L323.28535,186.615267 C323.28535,187.074119 323.583179,187.46134 324,187.583128 L324,628.009447 C324,642.353587 312.356536,654 297.993595,654 L32.0064047,654 C17.6474772,654 6,642.363633 6,628.009447 L6,25.9905527 C6,11.6464133 17.643464,0 32.0064047,0 L297.993595,0 C312.352523,0 324,11.6363668 324,25.9905527 L324,139.417326 Z" id="path-1"></path>
         <rect id="path-2" x="14" y="7" width="302" height="637" rx="22"></rect>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy-3" transform="translate(0.000000, -8.000000)">
-            <g id="Dyshr" transform="translate(0.000000, 9.000000)">
-                <rect id="Rectangle-11" fill="#F4E334" x="0" y="76" width="1392" height="506"></rect>
-                <g id="iPhone-6" transform="translate(80.000000, 0.000000)" stroke="#000000">
+        <g id="Tablet">
+            <g id="Lawyr">
+                <rect id="Rectangle-11" fill="#1C2C41" x="0" y="116" width="771" height="826"></rect>
+                <g id="iPhone-6" transform="translate(222.000000, 0.000000)" stroke="#000000">
                     <circle id="Oval-6" cx="114.5" cy="40.5" r="5.5"></circle>
                     <rect id="Rectangle-7" x="138.5" y="38.5" width="53" height="6" rx="3"></rect>
                     <g id="Rectangle-5">
@@ -27,17 +27,19 @@
                     <path d="M3.5,199 L3.5,249" id="Line" stroke-linecap="square"></path>
                     <circle id="Oval-5" cx="164.5" cy="20.5" r="3.5"></circle>
                     <rect id="Rectangle-8" x="25.5" y="77.5" width="278" height="496" rx="2"></rect>
+                    <circle id="Oval-7" cx="164.5" cy="611.5" r="21.5"></circle>
+                    <circle id="Oval-8" cx="164" cy="612" r="25"></circle>
                 </g>
-                <text id="View-case-study" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300" fill="#000000" text-decoration="underline">
-                    <tspan x="565.196" y="451">View case study</tspan>
+                <rect id="Rectangle" fill="#1C2C41" x="0" y="484" width="768" height="196"></rect>
+                <text id="View-case-study" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300" fill="#FFFFFF" text-decoration="underline">
+                    <tspan x="319.196" y="831">View case study</tspan>
                 </text>
-                <text id="Dyshr-provides-foodi" font-family="Akkurat-Light" font-size="18" font-weight="300" line-spacing="33" fill="#000000">
-                    <tspan x="563" y="277">Dyshr provides foodies with digital restaurant</tspan>
-                    <tspan x="563" y="310">content and also inspires .where and what to </tspan>
-                    <tspan x="563" y="343">eat next.</tspan>
+                <text id="Lawyr-helps-Nigerian" font-family="Akkurat-Light" font-size="18" font-weight="300" line-spacing="33" fill="#FFFFFF">
+                    <tspan x="197.381" y="679">Lawyr helps Nigerian Law School students get </tspan>
+                    <tspan x="327.152" y="712">better grades.</tspan>
                 </text>
-                <text font-family="CircularStd-Book, Circular Std" font-size="88" font-weight="300" fill="#000000">
-                    <tspan x="559" y="226">Dyshr</tspan>
+                <text font-family="CircularStd-Book, Circular Std" font-size="88" font-weight="300" fill="#FFFFFF">
+                    <tspan x="269" y="626">Lawyr</tspan>
                 </text>
             </g>
         </g>
