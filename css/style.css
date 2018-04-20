@@ -1948,7 +1948,6 @@ div.content {
 	}
 }
 
-
 .project-card {
 	background-color: #fafafa;
 	height: 400px;
@@ -1963,7 +1962,6 @@ div.content {
 .big-project-card img {
 	max-width: 100%;
 }
-
 
 /*@media only screen and (min-width :768px) {
 	.big-cards {
@@ -2000,12 +1998,15 @@ div.content {
 	*/
 }
 
+#events .big-cards {
+	background: #fafafa;
+}
+
 @media only screen and (max-width :767px) {
 	.big-cards p {
 		font-size: .875em;
 	}
 }
-
 
 .testimonial.clients-testimonial {
 	padding: 0
@@ -2598,6 +2599,12 @@ p.quote {
 
 hr {
 	border: 1px solid #eee
+}
+
+.border-line {
+	width: 100px;
+    border: 2px solid #000;
+    margin: 44px auto 14px;
 }
 
 .listed-logo li {
