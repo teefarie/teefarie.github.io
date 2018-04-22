@@ -246,6 +246,10 @@ p {
 	padding: 12px 20px;
 }
 
+.button.stroked-button.content {
+	padding: 12px 48px;
+}
+
 .stroked-button:hover {
 	color: #03a2dc
 }
