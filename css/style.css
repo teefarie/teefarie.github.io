@@ -3493,22 +3493,22 @@ span.black{
 	}
 }
 
-.quote {
+.big-quote {
 	margin: 0 auto;
 	width: 80%;
 	border-left: 5px solid #838997;
 	padding-left: 36px;
 }
 
-.quote h3 {
+.big-quote h3 {
 	font-size: 64px;
     line-height: 1.2;
 	color: #838997;
 	margin-bottom: 20px;
 }
 
-.quote h6 {
-	font-size: 14px;
+.big-quote h6 {
+	font-size: .75em;
 	color: #000;
 }
 
