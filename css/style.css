@@ -2810,7 +2810,7 @@ hr {
 	.screen .col-half img.intro{
 	    position: absolute;
 	    left: 100px;
-	    top: -80px;
+	    top: -100px;
 	    max-width: 110%;
 	}
 
