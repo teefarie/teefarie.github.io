@@ -359,6 +359,12 @@ nav ul li ul li {
   min-width: 190px;
 }
 
+@media only screen and (min-width: 993px) {
+	nav ul li ul {
+	  display: none;
+	}
+}
+
 nav ul li ul li a {
   padding: 10px;
   line-height: 20px;
