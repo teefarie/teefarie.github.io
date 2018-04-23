@@ -195,9 +195,11 @@ p {
 
 ::selection {
   background: #03a2dc;
+  color: #fff;
 }
 ::-moz-selection {
   background: #03a2dc;
+  color: #fff;
 }
 
 .button {
@@ -3510,5 +3512,16 @@ span.black{
 .big-quote h6 {
 	font-size: .75em;
 	color: #000;
+}
+
+
+.l-button {
+	margin-top: 48px;
+}
+
+@media only screen and (max-width:767px) {
+	.l-button {
+		margin-top: 28px;
+	}
 }
 
