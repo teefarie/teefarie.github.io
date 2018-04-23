@@ -513,7 +513,6 @@ ul.nav-dropdown {
 	}
 }
 
-
 .copyright .navigation {
 	float: left;
 }
@@ -654,21 +653,17 @@ ul.nav-dropdown {
 	}
 }
 
-@media only screen and (min-width :769px) {}
-
 .hero .hero-content h1,
 .home .hero-content h1 {
-	font-size: 4em;
-	line-height: 1.15em;
 	color: #000;
 	font-weight: 300;
-	margin-bottom: 28px
+	margin-bottom: 28px;
 }
 
 .screen h1{
-        font-size: 64px;
-        margin-bottom: 24px;
-   }
+    font-size: 64px;
+    margin-bottom: 24px;
+}
 
 
 @media only screen and (max-width :600px) {
@@ -678,27 +673,12 @@ ul.nav-dropdown {
 	}
 }
 
-@media only screen and (min-width :768px) {
-	.hero.hero-small .hero-content .centered-text h1, .hero.hero-small .hero-content .text-left h1, .screen h1 {
-		font-size: 3.75em
-	}
-}
-
-@media only screen and (max-width :1024px) {
+@media only screen and (min-width:320px) {
 	.hero .hero-content h1,
-	.home .hero-content h1, 
-	.screen h1 {
-		font-size: 3.375em;
-		line-height: 1em
-	}
-}
-
-@media only screen and (max-width:990px) {
-	.hero .hero-content h1,
-	.home .hero-content h1, 
+	.home .hero-content h1,
 	.screen h1 {
 		font-size: 2.5em;
-		line-height: 1.125em
+		line-height: 1.25em
 	}
 }
 
@@ -709,14 +689,32 @@ ul.nav-dropdown {
 	}
 }
 
-@media only screen and (max-width:380px) {
+@media only screen and (min-width :992px) {
 	.hero .hero-content h1,
-	.home .hero-content h1,
+	.home .hero-content h1, 
 	.screen h1 {
-		font-size: 1.75em;
-		line-height: 1.25em
+		font-size: 3.35em;
 	}
 }
+
+@media only screen and (min-width :1400px) {
+	.hero .hero-content h1,
+	.home .hero-content h1, 
+	.screen h1 {
+		font-size: 4em;
+		line-height: 1.15em;
+	}
+}
+
+
+@media only screen and (min-width :768px) {
+	.hero.hero-small .hero-content .centered-text h1, 
+	.hero.hero-small .hero-content .text-left h1, 
+	.screen h1 {
+		font-size: 3.75em
+	}
+}
+
 
 @media only screen and (min-width :1024px) {
 	.hero .hero-content .centered-text h1 {
@@ -728,7 +726,7 @@ ul.nav-dropdown {
 	}
 }
 
-@media only screen and (min-width :1450px) {
+@media only screen and (min-width :1024px) {
 	.hero .hero-content .centered-text h1 {
 		width: 75%;
 	}
@@ -954,26 +952,44 @@ ul.nav-dropdown {
 .testimonial .card {
 	background-color: #fff;
 	border: 1px solid #eee;
-	width: 350px;
-	display: inline-block;
-	margin-right: 24px;
 	padding: 40px;
 	margin-top: 24px
 }
 
-@media only screen and (max-width :768px) {
+/*@media only screen and (max-width :768px) {
 	.testimonial .card {
-		display: block;
+		
 		margin: 24px auto 0 auto;
 		width: 80%;
 		padding: 30px
 	}
-}
+}*/
 
-@media only screen and (max-width :990px) {
+@media only screen and (min-width :320px) {
 	.testimonial .card {
+		display: block;
 		width: 90%;
 		margin: 24px auto 0 auto;
+	}
+}
+
+@media only screen and (min-width :600px) {
+	.testimonial .card {
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width :992px) {
+	.testimonial .card {
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width :1024px) {
+	.testimonial .card {
+		width: 30%;
+		display: inline-block;
+		margin-right: 24px;
 	}
 }
 
@@ -2887,6 +2903,10 @@ span.black{
 
 .four-items {
 	margin-top: 56px;
+}
+
+.four-items.w-d {
+	margin-top: 100px;
 }
 
 .circle-items ul, .four-items ul {
