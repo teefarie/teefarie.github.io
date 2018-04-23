@@ -58,68 +58,43 @@
 
             <nav>
                 <div class="nav-mobile">
-                    <a id="nav-toggle" class="nav-color-d" href="#!"><span></span></a>
+                    <a id="nav-toggle" href="#!"><span></span></a>
                 </div>
 
                 <ul class="nav-list">
                     <li>
-                      <a href="">Solutions</a>
-                      <ul class="nav-dropdown">
-                        <li>
-                          <a href="solutions/startups">Startups</a>
-                        </li>
-
-                        <li>
-                          <a href="solutions/enterprise">Enterprise</a>
-                        </li>
-                      </ul>
+                        <a href="#!">Solutions</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="solutions/startups">Startups</a></li>
+                            <li><a href="solutions/enterprise">Enterprise</a></li>
+                        </ul>
                     </li>
 
                     <li>
-                      <a href="">Top Talent</a>
-                      <ul class="nav-dropdown">
-                        <li>
-                          <a href="top-talent/about-our-talent">About our talent</a>
-                        </li>
+                        <a href="#!">Top Talent</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="top-talent/about-our-talent">About our talent</a></li>
+                            <li><a href="top-talent/product-designer">Product Designer</a></li>
+                            <li><a href="top-talent/software-developer">Software Development</a></li>
+                        </ul>
+                    </li>
 
-                        <li>
-                          <a href="top-talent/product-designer">Product Designer</a>
-                        </li>
+                    <li><a href="community">Community</a></li>
 
-                        <li>
-                          <a href="top-talent/software-developer">Software Developer</a>
-                        </li>
-                      </ul>
+                    <li>
+                        <a href="#!">Company</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="company/why-devcenter">Why Devcenter?</a></li>
+                            <li><a href="company/about-us">About us</a></li>
+                        </ul>
                     </li>
 
                     <li>
-                      <a href="community">Community</a>
-                    </li>
-
-                    <li>
-                      <a href="#!">Company</a>
-                      <ul class="nav-dropdown">
-                        <li>
-                          <a href="company/why-devcenter">Why Devcenter</a>
-                        </li>
-
-                        <li>
-                          <a href="company/about-us">About us</a>
-                        </li>
-                      </ul>
-                    </li>
-
-                    <li>
-                      <a href="">Publications</a>
-                      <ul class="nav-dropdown">
-                        <li>
-                          <a href="https://blog.devcenter.co/" target="blank">Developer Blog</a>
-                        </li>
-
-                        <li>
-                          <a href="https://www.devcenter.co/theresource/" target="blank">The Resource</a>
-                        </li>
-                      </ul>
+                        <a href="#!">Publication</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="https://blog.devcenter.co/">Developer Blog</a></li>
+                            <li><a href="https://www.devcenter.co/theresource/">The Resource</a></li>
+                        </ul>
                     </li>
                 </ul>
 
@@ -473,13 +448,6 @@
     </footer>
 
     <script type="text/javascript">
-        $('.menu').click(function () {
-            $('.menu').toggleClass('on', function () {});
-            $('nav').slideToggle(400, function () {});
-        });
-    </script>
-
-    <script type="text/javascript">
         $(window).scroll(function() {     
             var scroll = $(window).scrollTop();
             if (scroll > 0) {
@@ -502,26 +470,32 @@
     </script>
 
     <script type="text/javascript">
-        (function($) { // Begin jQuery
-          $(function() { // DOM ready
+       (function($) {
+          // Begin jQuery
+        $(function() {
+            // DOM ready
             // If a link has a dropdown, add sub menu toggle.
-            $('nav ul li a:not(:only-child)').click(function(e) {
-              $(this).siblings('.nav-dropdown').toggle();
+            $("nav ul li a:not(:only-child)").click(function(e) {
+              $(this)
+                .siblings(".nav-dropdown")
+                .toggle();
               // Close one dropdown when selecting another
-              $('.nav-dropdown').not($(this).siblings()).hide();
+              $(".nav-dropdown")
+                .not($(this).siblings())
+                .hide();
               e.stopPropagation();
             });
             // Clicking away from dropdown will remove the dropdown class
-            $('html').click(function() {
-              $('.nav-dropdown').hide();
+            $("html").click(function() {
+              $(".nav-dropdown").hide();
             });
             // Toggle open and close nav styles on click
-            $('#nav-toggle').click(function() {
-              $('nav ul').slideToggle();
+            $("#nav-toggle").click(function() {
+              $("nav ul").slideToggle();
             });
             // Hamburger to X toggle
-            $('#nav-toggle').on('click', function() {
-              this.classList.toggle('active');
+            $("#nav-toggle").on("click", function() {
+              this.classList.toggle("active");
             });
           }); // end DOM ready
         })(jQuery); // end jQuery
