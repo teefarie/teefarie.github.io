@@ -458,10 +458,10 @@ ul.nav-dropdown {
   transition: all 300ms ease-in-out;
 }
 
-.nav-color-d span,
-.nav-color-d span:before,
-.nav-color-d span:after {
-	background: #000!important;
+#nav-toggle.nav-color-d span,
+#nav-toggle.nav-color-d span:before,
+#nav-toggle.nav-color-d span:after {
+	background: #000;
 }
 
 #nav-toggle span:before {
