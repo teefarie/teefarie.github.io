@@ -2721,7 +2721,7 @@ hr {
     margin: 0 auto;
 }
 
-.screen .col-half img.intro, .screen .col-half.bid-intro img {
+.screen .col-half img.intro {
     max-width: 100%;
     margin-top: 50px;
 }
@@ -2729,17 +2729,14 @@ hr {
 @media only screen and (min-width:769px) {
 	.screen .col-half img.intro{
 	    position: absolute;
-	    left: 100px;
 	    top: -100px;
-	    max-width: 110%;
+	    max-width: 100%;
 	}
+}
 
-	.screen .col-half.bid-intro img{
-	    position: absolute;
-	    right: 0;
+@media only screen and (min-width:1200px) {
+	.screen .col-half img.intro{
 	    left: 100px;
-	    max-width: 150%;
-	    top: -25px;
 	}
 }
 
