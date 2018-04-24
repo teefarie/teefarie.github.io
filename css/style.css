@@ -351,18 +351,18 @@ nav ul li a:visited:not(:only-child):after {
 }
 
 nav ul li ul li {
-  min-width: 220px;
+  width: 250px;
   text-transform: capitalize;
   font-size: 1em;
   padding: 8px 8px 0;
 }
 
 nav ul li ul li:last-of-type {
-  padding: 8px 8px 8px;
+  padding-bottom: 10px;
 }
 
 nav ul li ul li a {
-  padding: 10px;
+  padding: 10px 0px 0;
   line-height: 20px;
 }
 
@@ -3408,11 +3408,11 @@ span.black{
 	}
 }
 
-@media only screen and (min-width:1250px) {
+/*@media only screen and (min-width:1250px) {
 	.m-t {
 	    margin-top: 150px
 	}
-}
+}*/
 
 .big-quote {
 	margin: 0 auto;
@@ -3444,3 +3444,25 @@ span.black{
 	}
 }
 
+.p-mck {
+	max-width: 100%;
+}
+
+.p-mck-xl {
+	max-width: 60%;
+}
+
+.p-i {
+	padding-right: 100px;
+}
+
+@media only screen and (max-width:767px) {
+	.p-i {
+		padding-right: 0px;
+		margin-bottom: 50px;
+	}
+
+	.p-t {
+		margin-top: 50px;
+	}
+}
