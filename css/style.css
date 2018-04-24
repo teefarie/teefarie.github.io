@@ -3452,6 +3452,14 @@ span.black{
 	max-width: 60%;
 }
 
+.p-mck-xxl {
+	max-width: 50%;
+}
+
+.p-mck-xs {
+	max-width: 85%;
+}
+
 .p-i {
 	padding-right: 100px;
 }
