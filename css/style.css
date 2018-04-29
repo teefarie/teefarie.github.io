@@ -223,6 +223,13 @@ p {
 	transition-timing-function: ease-out
 }
 
+@media only screen and (max-width:767px) {
+	.button {
+		font-size: .675em;
+	}
+}
+
+
 .button:hover {
 	-webkit-transform: translateY(-4px);
 	transform: translateY(-4px)
@@ -329,6 +336,12 @@ nav ul li {
   padding: 28px 18px 0;
 }
 
+@media screen and (max-width:1023px) {
+	nav ul li {
+	  max-width: 100%;
+	}
+}
+
 nav ul li a,
 nav ul li a:visited {
   display: block;
@@ -345,9 +358,11 @@ nav ul li a:hover {
 	color: #03a2dc
 }
 
-nav ul li a:not(:only-child):after,
-nav ul li a:visited:not(:only-child):after {
-  content: ' ▾';
+@media screen and (max-width:1023px) {
+	nav ul li a:not(:only-child):after,
+	nav ul li a:visited:not(:only-child):after {
+	  content: ' ▾';
+	}
 }
 
 nav ul li ul li {
@@ -1089,7 +1104,7 @@ ul.nav-dropdown {
 	background: linear-gradient(to right, #f6fafd, #fff)
 }
 
-@media only screen and (max-width :1024px) {
+@media only screen and (max-width :1023px) {
 	.half-cta .grid {
 		display: block
 	}
@@ -1186,7 +1201,7 @@ ul.nav-dropdown {
 	}
 }
 
-@media only screen and (min-width :1025px) {
+@media only screen and (min-width :1024px) {
 	.call-to-action .cta.cta-idea p {
 		width: 80%
 	}
@@ -3372,6 +3387,10 @@ span.black{
 	background-color: #1C2C41;
 }
 
+.gatepass-header {
+	background-color: #234C74;
+}
+
 #slide-cut {
 	position: relative;
     z-index: 1;
@@ -3398,7 +3417,8 @@ span.black{
 	color: #000;
 }
 
-.lawyr-header h1, .lawyr-header p {
+.lawyr-header h1, .lawyr-header p,
+.gatepass-header h1, .gatepass-header p {
 	color: #fff;
 }
 
@@ -3460,6 +3480,10 @@ span.black{
 	max-width: 85%;
 }
 
+.p-mck-x {
+	max-width: 100%;
+}
+
 .p-i {
 	padding-right: 100px;
 }
@@ -3472,5 +3496,12 @@ span.black{
 
 	.p-t {
 		margin-top: 50px;
+	}
+}
+
+@media only screen and (min-width: 1199px) {
+
+	.project-card.extra {
+		width: 30%;
 	}
 }
