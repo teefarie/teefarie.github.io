@@ -45,6 +45,41 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
+<style type="text/css">
+
+    #full-nav-holder {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 999;
+    }
+
+    .nav-half-cta {
+        background: linear-gradient(to right, #fff, #fff);
+        border: 1px solid #eee;
+    }  
+
+    @media only screen and (max-width: 1023px) {
+        .nav-half-cta {
+            display: none;
+        }  
+
+        .half-cta.nav-half-cta .grid .col-half {
+            display: none;
+        }
+    }
+
+    .call-to-action.nav-half-cta .cta p {
+        font-size: 1em;
+    } 
+
+    .call-to-action.nav-half-cta .cta h3 {
+        font-size: 36px;
+        margin: 0 auto 6px;
+    }
+
+</style>
 <body>
     <header id="header">
         <div class="wrapper nav-wrapper">
@@ -104,6 +139,97 @@
             </nav>
         </div>
     </header>
+
+    <div id="full-nav-holder">
+        <section id ="solutions" class="call-to-action half-cta nav-half-cta">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-idea">
+                            <h3>Startups</h3>
+                            <p>We simplify rough ideas and build products users will love. Learn about our software design and development services for startups.</p>
+                            <a class="button stroked-button" href="">Learn more</a>
+                        </div>
+                    </div>
+                    
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-work">
+                            <h3>Enterprise</h3>
+                            <p>We develop and design software, manage software projects and place high-level developers on-contract. </p>
+                            <a class="button stroked-button" href="">Learn more</a>
+                        </div>    
+                    </div>
+                </div>   
+            </div>    
+        </section> 
+
+        <section id ="top-talent" class="call-to-action half-cta nav-half-cta">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-idea">
+                            <h3>Product Designer</h3>
+                            <p>Expert product thinker designing beautiful, seamless, and intuitive software applications?</p>
+                            <a class="button stroked-button" href="">Learn more</a>
+                        </div>
+                    </div>
+                    
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-work">
+                            <h3>Software Developer</h3>
+                            <p>Experienced software engineer, coder with expertise across different technologies?</p>
+                            <a class="button stroked-button" href="">Learn more</a>
+                        </div>    
+                    </div>
+                </div>   
+            </div>    
+        </section> 
+
+        <section id ="company" class="call-to-action half-cta nav-half-cta">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-idea">
+                            <h3>Why Devecnter?</h3>
+                            <p>We're just as passionate about our work as you are about your idea. Here's why Devcenter should be your Software Development partner.</p>
+                            <a class="button stroked-button" href="">Learn more</a>
+                        </div>
+                    </div>
+                    
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-work">
+                            <h3>About us</h3>
+                            <p>Learn about Devcenter's mission to grow and connect talent communities in Africa. We're starting with Software Development.</p>
+                            <a class="button stroked-button" href="">Learn more</a>
+                        </div>    
+                    </div>
+                </div>   
+            </div>    
+        </section> 
+
+        <section id ="publication" class="call-to-action half-cta nav-half-cta">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-idea">
+                            <h3>Developer Blog</h3>
+                            <p>Building Africa’s Finest Software Development Network.</p>
+                            <a class="button stroked-button" href="product-designer">View blog</a>
+                        </div>
+                    </div>
+                    
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-work">
+                            <h3>The Resource</h3>
+                            <p>Advice on running a technology business in Africa</p>
+                            <a class="button stroked-button" href="software-developer">View the resource</a>
+                        </div>    
+                    </div>
+                </div>   
+            </div>    
+        </section> 
+    </div>
+
 
     <section class="hero bg-light">
         <div class="wrapper">
