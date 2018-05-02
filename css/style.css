@@ -332,7 +332,7 @@ nav ul li {
   font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
-  max-width: 151px;
+  /*max-width: 151px;*/
   padding: 28px 18px 0;
 }
 
@@ -366,18 +366,18 @@ nav ul li a:hover {
 }
 
 nav ul li ul li {
-  width: 250px;
+  width: 180px;
   text-transform: capitalize;
   font-size: 1em;
-  padding: 8px 8px 0;
+  /*padding: 8px 8px 0;*/
 }
 
 nav ul li ul li:last-of-type {
-  padding-bottom: 10px;
+  padding-bottom: 28px;
 }
 
 nav ul li ul li a {
-  padding: 10px 0px 0;
+  /*padding: 8px 0px 0;*/
   line-height: 20px;
 }
 
@@ -391,6 +391,13 @@ nav ul li ul li a {
   .nav-dropdown {
 	  border: 1px solid #eee;
 	  background: #fff;
+	  /*opacity: 0;*/
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+  .nav-dropdown {
+	  display: none;
 	}
 }
 
@@ -427,8 +434,7 @@ nav ul li ul li a {
   nav ul li {
     float: none;
     display: block;
-	margin: .6em 0!important;
-	line-height: 60px;
+	margin: 3em 0!important;
 	padding: 0
   }
 
@@ -955,14 +961,6 @@ ul.nav-dropdown {
 .testimonial.centered {
 	padding: 30px 0 0
 }
-
-
-
-
-
-
-
-
 
 .testimonial .card {
 	background-color: #fff;
@@ -3505,3 +3503,54 @@ span.black{
 		width: 30%;
 	}
 }
+
+.full-nav-holder {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    display: none;
+}
+
+.nav-half-cta {
+    background: linear-gradient(to right, #fff, #fff);
+    border: 1px solid #eee;
+}
+
+@media only screen and (max-width: 1023px) {
+    .nav-half-cta {
+        display: none;
+    }
+
+    .half-cta.nav-half-cta .grid .col-half {
+        display: none;
+    }
+}
+
+.call-to-action.nav-half-cta .cta p {
+    font-size: 1em;
+}
+
+.call-to-action.nav-half-cta .cta h3 {
+    font-size: 36px;
+    margin: 0 auto 6px;
+}
+
+[data-visible-dropdown=true] {
+    display: block;
+}
+
+.async-hide {
+    opacity: 0 !important
+}
+
+/*:after {
+	border-radius: 1px;
+	height: 2.5px;
+	width: 32px;
+	background: #000;
+	position: absolute;
+	display: block;
+	content: '';
+}*/
