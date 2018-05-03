@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-PSV4N3F':true});</script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -57,7 +63,9 @@
 
                 <ul class="nav-list">
                     <li>
-                        <a href="#!">Solutions</a>
+                        <a href="#!" class="show-drop-down" data-drop-down-id="drop-down-solution">Solutions
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </a>
                         <ul class="nav-dropdown">
                             <li><a href="../solutions/startups">Startups</a></li>
                             <li><a href="../solutions/enterprise">Enterprise</a></li>
@@ -65,7 +73,9 @@
                     </li>
 
                     <li>
-                        <a href="#!">Top Talent</a>
+                        <a href="#!" class="show-drop-down" data-drop-down-id="drop-down-talent">Top Talent
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </a>
                         <ul class="nav-dropdown">
                             <li><a href="../top-talent/about-our-talent">About our talent</a></li>
                             <li><a href="../top-talent/product-designer">Product Designer</a></li>
@@ -73,18 +83,22 @@
                         </ul>
                     </li>
 
-                    <li><a href="community">Community</a></li>
+                    <li><a href="../community">Community</a></li>
 
                     <li>
-                        <a href="#!">Company</a>
+                        <a href="#!" class="show-drop-down" data-drop-down-id="drop-down-company">Company
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </a>
                         <ul class="nav-dropdown">
-                            <li><a href="../company/why-devcenter">Why Devcenter?</a></li>
-                            <li><a href="../company/about-us">About us</a></li>
+                            <li><a href="why-devcenter">Why Devcenter?</a></li>
+                            <li><a href="about-us">About us</a></li>
                         </ul>
                     </li>
 
                     <li>
-                        <a href="#!">Publications</a>
+                        <a href="#!" class="show-drop-down" data-drop-down-id="drop-down-publication">Publications
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </a>
                         <ul class="nav-dropdown">
                             <li><a href="https://blog.devcenter.co/" target="_blank">Developer Blog</a></li>
                             <li><a href="https://www.devcenter.co/theresource/" target="_blank">The Resource</a></li>
@@ -99,11 +113,123 @@
         </div>
     </header>
 
+    <div class="full-nav-holder" id="drop-down-solution">
+        <section id="solutions" class="call-to-action half-cta nav-half-cta">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-idea">
+                            <a href="../solutions/startups">
+                                <h3>Startups</h3>
+                                <p>We simplify rough ideas and build products users will love. Learn about our software design and development services for startups.</p>
+                                <a class="button stroked-button" href="../solutions/startups">Learn more</a>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-work">
+                            <a href="../solutions/enterprise">
+                                <h3>Enterprise</h3>
+                                <p>We develop and design software, manage software projects and place high-level developers on-contract. </p>
+                                <a class="button stroked-button" href="../solutions/enterprise">Learn more</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="full-nav-holder" id="drop-down-talent">
+        <section id="top-talent" class="call-to-action half-cta nav-half-cta">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-idea">
+                            <a href="../top-talent/product-designer">
+                                <h3>Product Designer</h3>
+                                <p>Expert product thinker designing beautiful, seamless, and intuitive software applications?</p>
+                                <a class="button stroked-button" href="../top-talent/product-designer">Learn more</a>  
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-work">
+                            <a href="../top-talent/software-developer">
+                                <h3>Software Developer</h3>
+                                <p>Experienced software engineer, coder with expertise across different technologies?</p>
+                                <a class="button stroked-button" href="../top-talent/software-developer">Learn more</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="full-nav-holder" id="drop-down-company">
+        <section id="company" class="call-to-action half-cta nav-half-cta">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-idea">
+                            <a href="why-devcenter">
+                                <h3>Why Devecenter?</h3>
+                                <p>We're just as passionate about our work as you are about your idea. Here's why Devcenter should be your Software partner.</p>
+                                <a class="button stroked-button" href="why-devcenter">Learn more</a>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-work">
+                            <a href="about-us">
+                                <h3>About us</h3>
+                                <p>Learn about Devcenter's mission to grow and connect talent communities in Africa. We're starting with Software Development.</p>
+                                <a class="button stroked-button" href="about-us">Learn more</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="full-nav-holder" id="drop-down-publication">
+        <section id="publication" class="call-to-action half-cta nav-half-cta">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-idea">
+                            <a href="https://blog.devcenter.co/" target="_blank">
+                                <h3>Developer Blog</h3>
+                                <p>Building Africa’s Finest Software Development Network.</p>
+                                <a class="button stroked-button" href="https://blog.devcenter.co/" target="_blank">View blog</a>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class=" col-half">
+                        <div class="sub-text cta cta-work">
+                            <a href="https://www.devcenter.co/theresource/" target="_blank">
+                                <h3>The Resource</h3>
+                                <p>Advice on running a technology business in Africa</p>
+                                <a class="button stroked-button" href="https://www.devcenter.co/theresource/" target="_blank">View the resource</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <section class="hero hero-small bg-light">
         <div class="wrapper">
             <div class="hero-content grid">
                 <div class="centered-text text-center" data-aos="fade-up">
-                    <h1>Growing and Connecting Talent Communities</h1>
+                    <h1>Growing and Connecting Talent Communities.</h1>
                     <p>Close to our hearts, is a mission to connect a generation of knowledge workers to opportunity. We’re creating a true digital economy, starting with software development.</p>
                     <a class="button" href="../company/why-devcenter" target="_blank">Learn more about our processes</a>
                 </div>
@@ -310,7 +436,7 @@
                 <div class="col-quater show">
                     <ul>
                         <h4>Top-Talent</h4>
-                        <li><a href="../toptalent/about-our-talent">About our talent</a></li>
+                        <li><a href="../top-talent/about-our-talent">About our talent</a></li>
                         <li><a href="../top-talent/product-designer">Product Designer</a></li>
                         <li><a href="../top-talent/software-developer">Software Developer</a></li>
                     </ul>
@@ -362,19 +488,11 @@
     </footer>
 
     <script type="text/javascript">
-        $('.menu').click(function () {
-            $('.menu').toggleClass('on', function () {});
-            $('nav').slideToggle(400, function () {});
-        });
-    </script>
-
-    <script type="text/javascript">
-        $(window).scroll(function() {     
+        $(window).scroll(function() {
             var scroll = $(window).scrollTop();
             if (scroll > 0) {
                 $("#header").addClass("visible");
-            }
-            else {
+            } else {
                 $("#header").removeClass("visible");
             }
         });
@@ -382,42 +500,72 @@
 
     <script>
         AOS.init({
-          offset: 100,
-          duration: 800,
-          easing: 'ease',
-          delay: 300,
-          once: true,
+            offset: 100,
+            duration: 800,
+            easing: 'ease',
+            delay: 300,
+            once: true,
         });
     </script>
 
     <script type="text/javascript">
-        (function($) { // Begin jQuery
-          $(function() { // DOM ready
-            // If a link has a dropdown, add sub menu toggle.
-            $('nav ul li a:not(:only-child)').click(function(e) {
-              $(this).siblings('.nav-dropdown').toggle();
-              // Close one dropdown when selecting another
-              $('.nav-dropdown').not($(this).siblings()).hide();
-              e.stopPropagation();
-            });
-            // Clicking away from dropdown will remove the dropdown class
-            $('html').click(function() {
-              $('.nav-dropdown').hide();
-            });
-            // Toggle open and close nav styles on click
-            $('#nav-toggle').click(function() {
-              $('nav ul').slideToggle();
-            });
-            // Hamburger to X toggle
-            $('#nav-toggle').on('click', function() {
-              this.classList.toggle('active');
-            });
-          }); // end DOM ready
+        $(window).resize(function(){
+            if ($(window).width() <= 1023){  
+                // do something here
+            }   
+        });
+        (function($) {
+            // Begin jQuery
+            $(function() {
+                // DOM ready
+                // If a link has a dropdown, add sub menu toggle.
+                $("nav ul li a:not(:only-child)").click(function(e) {
+                    $(this)
+                        .siblings(".nav-dropdown")
+                        .toggle();
+                    // Close one dropdown when selecting another
+                    $(".nav-dropdown")
+                        .not($(this).siblings())
+                        .hide();
+                    e.stopPropagation();
+                });
+                // Clicking away from dropdown will remove the dropdown class
+                $("html").click(function() {
+                    $(".nav-dropdown").hide();
+                });
+                // Toggle open and close nav styles on click
+                $("#nav-toggle").click(function() {
+                    $("nav ul").slideToggle();
+                });
+                // Hamburger to X toggle
+                $("#nav-toggle").on("click", function() {
+                    this.classList.toggle("active");
+                });
+            }); // end DOM ready
         })(jQuery); // end jQuery
     </script>
 
-    <script type="text/javascript" src="https://cdn.slaask.com/chat.js"> </script>
-    <script>_slaask.init("6c1a1fc87e9009ebee1e28929e1f3970");</script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="https://cdn.slaask.com/chat.js">
+    </script>
+
+    <script>
+        _slaask.init("6c1a1fc87e9009ebee1e28929e1f3970");
+    </script>
+
+    <script type="text/javascript" src="../js/app.js"></script>
+
+    <script>
+        $( ".arrow" ).click(function() {
+          $( this ).toggleClass( "arrow-change" );
+        });
+
+        $(".show-drop-down").click(function() {
+            $(".arrow").toggleClass( "arrow-change" );
+        });
+
+        $("html").click(function() {
+            $(".arrow").removeClass( "arrow-change" );
+        });
+    </script>
 </body>
 </html>
