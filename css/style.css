@@ -1782,7 +1782,7 @@ div.content {
 
 .big-cards-icon, .t-card-icon {
     width: 100px;
-    margin-right: 32px;
+    margin-right: 14px;
 }
 
 .big-cards-icon img, .t-card-icon img {
@@ -3437,12 +3437,16 @@ span.black {
     display: block;
 }
 
-/*:after {
-	border-radius: 1px;
-	height: 2.5px;
-	width: 32px;
-	background: #000;
-	position: absolute;
-	display: block;
-	content: '';
-}*/
+.nav-half-cta .cta-idea {
+	position: relative;
+}
+
+.nav-half-cta .cta-idea:after {
+	content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 10em;
+    right: 1.3em;
+    border-right: 1.5px solid #ccc;
+    height: 120px;
+}
