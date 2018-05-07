@@ -3450,3 +3450,47 @@ span.black {
     border-right: 1.5px solid #ccc;
     height: 120px;
 }
+
+.call-to-action.nav-half-cta .cta {
+    padding: 150px 0 100px 0;
+}
+
+.call-to-action.nav-half-cta .cta.cta-work {
+    padding: 150px 0 100px 100px;
+}
+
+.bg-svg {
+	-webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.bg-svg svg {
+	width: calc(180% + 1.3px);
+	display: block;
+    width: -webkit-calc(100% + 1.3px);
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.faint {
+	fill: #03a2dc;
+}
+
+.deep {
+	fill: #03a2dc;
+}
+
+.faint-light {
+	fill: #03a2dc;
+}
