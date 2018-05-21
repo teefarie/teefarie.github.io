@@ -3494,3 +3494,7 @@ span.black {
 .faint-light {
 	fill: #03a2dc;
 }
+
+.h-s:hover {
+    box-shadow: rgba(0, 0, 0, .1) 0 0px 20px;
+}
