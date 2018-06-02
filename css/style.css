@@ -540,7 +540,7 @@ nav.dark ul li a {
 .image-box {
   background-color: #1B1B1E;
   position: absolute;
-  right: -100px;
+  right: 0px;
   width: 450px;
   height: 600px;
 }
