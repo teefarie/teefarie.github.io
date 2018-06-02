@@ -546,7 +546,7 @@ nav.dark ul li a {
 }
 
 
-@media screen and (max-width: 1299px) {
+@media screen and (max-width: 1399px) {
   .image-box {
     display: none;
   }
