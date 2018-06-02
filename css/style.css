@@ -534,6 +534,20 @@ nav.dark ul li a {
   color: #000;
 }
 
+.image-box {
+  background-color: #1B1B1E;
+  position: absolute;
+  right: -100px;
+  width: 450px;
+  height: 600px;
+}
+
+
+@media screen and (max-width: 1299px) {
+  .image-box {
+    display: none;
+  }
+
 
 /*****Footer****/
 footer {
