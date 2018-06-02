@@ -84,6 +84,10 @@ section{
   color: #8D8D8F;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .right {
   float: right;
   clear: both;
@@ -209,7 +213,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   float: left;
-  margin: 24px 18px;
+  margin: 24px 20px;
   padding: 4px 0px;
   font-family: 'Averta-Regular', sans-serif;    
   font-size: .875em;
@@ -225,7 +229,6 @@ nav ul li a {
   color: #000;
   letter-spacing: 0.04em;
   font-size: 1em;
-  text-transform: uppercase;
   position: relative;
   text-decoration: none;
   -webkit-transition: .5s all ease;
@@ -500,7 +503,7 @@ nav.dark ul li a {
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  font-size: 1em;
+  font-size: .875em;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   letter-spacing: 0px;
@@ -519,10 +522,10 @@ nav.dark ul li a {
 }
 
 .image-box {
-  background-color: #1B1B1E;
+  border: 6px solid #000;
   position: absolute;
   right: 0px;
-  width: 450px;
+  width: 420px;
   height: 600px;
 }
 
@@ -701,6 +704,47 @@ a.forward-animated-line:hover {
   transform: scaleX(1);
 }
 
+/* Sweep To Left */
+.hvr-sweep-to-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1f2227;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
+  color: white;
+}
+.hvr-sweep-to-left:hover:before, .hvr-sweep-to-left:focus:before, .hvr-sweep-to-left:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
 
 /*****Problems page****/
 .p-container {
@@ -860,4 +904,51 @@ a.forward-animated-line:hover {
 .hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
+}
+
+
+/*****Personpage****/
+.m-container {
+  margin: auto;
+}
+
+@media screen and (min-width: 320px) {
+  .m-container {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .m-container {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .m-container {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .m-container {
+    width: 60%;
+  }
+}
+
+.m-content {
+  padding: 100px 0 0;
+}
+
+.m-container h3 {
+  font-size: 30px;
+  line-height: 48px;
+  margin-bottom: 48px;
+}
+
+.m-container p {
+  color: #8D8D8F;
+  margin-bottom: 56px;
+  font-size: 15px;
+  line-height: 30px;
 }
