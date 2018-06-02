@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Loading-Copy" transform="translate(-698.000000, -403.000000)" fill="#FFFFFF">
+            <g id="Landing" transform="translate(698.000000, 403.000000)">
+                <g id="logo">
+                    <path d="M0,48 L48,48 L48,0 L0,0 L0,48 Z M4.12977253,43.8702275 L43.8702275,43.8702275 L43.8702275,4.12977253 L4.12977253,4.12977253 L4.12977253,43.8702275 Z" id="Fill-1"></path>
+                    <polygon id="Fill-2" points="10.9090909 14.1818182 20.7272727 14.1818182 20.7272727 10.9090909 10.9090909 10.9090909"></polygon>
+                    <polygon id="Fill-3" points="37.0909091 14.5311195 37.0909091 10.9090909 25.5307096 10.9090909 21.8186738 10.9090909 21.8181818 10.9090909 21.8181818 14.5311195 21.8186738 14.5311195 21.8186738 20.3782114 21.8186738 24.00024 21.8186738 37.0909091 25.5307096 37.0909091 25.5307096 24.00024 32.4017887 24.00024 32.4017887 20.3782114 25.5307096 20.3782114 25.5307096 14.5311195"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

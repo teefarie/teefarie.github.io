@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="99px" viewBox="0 0 99 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Loading-Copy" transform="translate(-698.000000, -403.000000)" fill="#000000">
+            <g id="Landing" transform="translate(698.000000, 403.000000)">
+                <g id="logo">
+                    <path d="M0,99 L99,99 L99,0 L0,0 L0,99 Z M8.51765585,90.4823441 L90.4823441,90.4823441 L90.4823441,8.51765585 L8.51765585,8.51765585 L8.51765585,90.4823441 Z" id="Fill-1"></path>
+                    <polygon id="Fill-2" points="22.5 29.25 42.75 29.25 42.75 22.5 22.5 22.5"></polygon>
+                    <polygon id="Fill-3" points="76.5 29.970434 76.5 22.5 52.6570886 22.5 45.0010147 22.5 45 22.5 45 29.970434 45.0010147 29.970434 45.0010147 42.0300611 45.0010147 49.5004951 45.0010147 76.5 52.6570886 76.5 52.6570886 49.5004951 66.8286892 49.5004951 66.8286892 42.0300611 52.6570886 42.0300611 52.6570886 29.970434"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
