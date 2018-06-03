@@ -42,12 +42,6 @@ section{
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .full-height{
-      height: 100vh;
-  }
-}
-
 .clearfix {
   content: " ";
   display: table;
@@ -165,7 +159,6 @@ section{
   top: 0; 
   bottom: 0; 
   background:url('../img/loading.svg') center no-repeat;
-    
 }
 
 
@@ -180,6 +173,12 @@ nav {
   z-index: 9000;
   border: 1px solid #eee;
   transition: top 0.4s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  nav {
+    height: 72px;
+  }
 }
 
 nav.dark {
@@ -219,8 +218,10 @@ nav ul li {
   font-size: .875em;
 }
 
-nav ul li:not(:first-child) {
-  /*margin-left: 25px;*/
+@media screen and (min-width: 701px) {
+  nav ul li:last-of-type {
+    margin: 20px 0 24px 20px;
+  }
 }
 
 nav ul li a {
@@ -286,7 +287,7 @@ nav.dark ul li a {
     width: 100%;
     z-index: -1;
     background: #1B1B1E;
-    opacity: 0;
+    display: none;
     transition: all 0.2s ease;
   }
 
@@ -328,7 +329,7 @@ nav.dark ul li a {
 
   .nav-container ul li a {
     padding: 20px;
-    opacity: 0;
+    display: none;
     color: #fff;
     font-size: 2em;
     font-weight: 800;
@@ -338,7 +339,7 @@ nav.dark ul li a {
 
   .nav-open {
     position: fixed;
-    right: 10px;
+    right: 24px;
     top: 8px;
     display: block;
     cursor: pointer;
@@ -352,6 +353,10 @@ nav.dark ul li a {
     background: #1f2227;
     border-radius: 2px;
     margin-left: 20px;
+  }
+
+  .bg-dark .nav-open i {
+    background: #fff;
   }
 
   .nav-open i:nth-child(1) {
@@ -388,11 +393,11 @@ nav.dark ul li a {
 
 #nav:checked ~ .nav-container {
   z-index: 9990;
-  opacity: 1;
+  display: block;
 }
 
 #nav:checked ~ .nav-container ul li a {
-  opacity: 1;
+  display: block;
   transform: translateY(0);
 }
 
@@ -407,7 +412,12 @@ nav.dark ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   min-height: 70vh;
+}
+
+.h-c {
+  align-items: flex-start;
 }
 
 @media screen and (min-width: 320px) {
@@ -443,7 +453,7 @@ nav.dark ul li a {
 
 @media screen and (min-width: 320px) {
   .h-content h1 {
-    font-size: 48px;
+    font-size: 3.428em;
     line-height: 54px;
     margin-bottom: 12px;
   }
@@ -451,14 +461,21 @@ nav.dark ul li a {
 
 @media screen and (min-width: 768px) {
   .h-content h1 {
-    font-size: 64px;
+    font-size: 4.571em;
     line-height: 72px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .h-content h1 {
+    font-size: 5.142em;
+    line-height: 80px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .h-content h1 {
-    font-size: 110px;
+    font-size: 7.857em;
     line-height: 120px;
     margin-bottom: 32px;
   }
@@ -470,15 +487,15 @@ nav.dark ul li a {
 
 @media screen and (min-width: 320px) {
   .h-content p {
-    font-size: 15px;
-    line-height: 23px;
+    font-size: 1.071em;
+    line-height: 24px;
     width: 100%;
   }
 }
 
 @media screen and (min-width: 600px) {
   .h-content p {
-    width: 80%;
+    width: 72%;
   }
 }
 
@@ -488,10 +505,17 @@ nav.dark ul li a {
   }
 }
 
+@media screen and (min-width: 992px) {
+  .h-content p {
+    width: 55%;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .h-content p {
-    font-size: 17px;
-    line-height: 27px;
+    font-size: 1.142em;
+    line-height: 24px;
+    width: 60%;
   }
 }
 
@@ -537,7 +561,7 @@ nav.dark ul li a {
 }
 /*****Footer****/
 footer {
-  font-size: 13px;
+  font-size: 0.928em;
   width: 100%;
   padding: 24px 0;
 }
@@ -627,6 +651,10 @@ a.forward-animated-line:hover {
   margin: 0 5px;
 }
 
+li.about-social-item:last-of-type {
+  margin: 0 0 0 5px;
+}
+
 .about-social-link {
   box-shadow: -5px 20px 30px 0 transparent;
   display: block;
@@ -651,12 +679,40 @@ a.forward-animated-line:hover {
   stroke: #1f2227;
 }
 
+.about-social-icon.no-fill.light {
+  stroke: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .t-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 701px) {
+  .d-nav {
+    display: none;
+  }
+
+  .t-nav {
+    stroke: #1f2227;
+  }
+
+  .t-nav.light {
+    stroke: #fff;
+  }
+}
+
 .about-social-link:hover .about-social-icon.fill {
   fill: #fff;
 }
 
 .about-social-link:hover .about-social-icon.no-fill {
   stroke: #fff;
+}
+
+.about-social-link:hover .about-social-icon.no-fill.light {
+  stroke: #1f2227;
 }
 
 /*****Animation for footer icons*****/
@@ -694,10 +750,15 @@ a.forward-animated-line:hover {
   transition-timing-function: ease-out;
 }
 
+.hvr-sweep-to-right.light:before {
+  background: #fff;
+}
+
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
   color: white;
   box-shadow: rgba(0, 0, 0, 0.2) -4px 10px 10px 0px;
 }
+
 
 .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
@@ -717,6 +778,7 @@ a.forward-animated-line:hover {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 .hvr-sweep-to-left:before {
   content: "";
   position: absolute;
@@ -737,6 +799,11 @@ a.forward-animated-line:hover {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
+.hvr-sweep-to-left.light:before {
+  background: #fff;
+}
+
 .hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
   color: white;
 }
@@ -770,7 +837,7 @@ a.forward-animated-line:hover {
 }
 
 .p-number{
-  font-size: 10px;
+  font-size: 0.714em;
   font-family: "Averta-Semibold", sans-serif; 
 } 
 
@@ -831,6 +898,12 @@ a.forward-animated-line:hover {
   animation-delay: .11s;
 }
 
+.fade-in.six {
+  -webkit-animation-delay: .13s;
+  -moz-animation-delay: .13s;
+  animation-delay: .13s;
+}
+
 @media screen and (max-width: 767px) {
   .p-list a div {
     padding: 36px 0;
@@ -842,27 +915,27 @@ a.forward-animated-line:hover {
 }
 
 .p-list a div h3 {
-  font-size: 32px;
+  font-size: 2.285em;
   line-height: 40px;
   margin: 6px 0 4px;
 }
 
 @media screen and (max-width: 500px) {
   .p-list a div h3 {
-    font-size: 28px;
+    font-size: 2em;
     line-height: 34px;
   }
 }
 
 .p-list a div p {
-  font-size: 16px;
+  font-size: 1.142em;
   line-height: 24px;
   font-family: 'Averta-Light', sans-serif; 
 }
 
 @media screen and (max-width: 500px) {
   .p-list a div p {
-    font-size: 14px;
+    font-size: 1em;
     line-height: 22px;
   }
 }
@@ -941,14 +1014,25 @@ a.forward-animated-line:hover {
 }
 
 .m-container h3 {
-  font-size: 30px;
+  font-size: 2.142em;
   line-height: 48px;
   margin-bottom: 48px;
 }
 
+@media screen and (max-width: 1023px) {
+  .m-container h3 {
+    font-size: 1.714em;
+    line-height: 40px;
+  }
+}
+
 .m-container p {
   color: #8D8D8F;
-  margin-bottom: 56px;
-  font-size: 15px;
+  margin-bottom: 48px;
+  font-size: 1.071em;
   line-height: 30px;
+}
+
+.me-chilling img {
+  max-width: 100%;
 }
