@@ -501,7 +501,7 @@ nav.dark ul li a {
 }
 
 .h-content p {
-  font-family: 'Averta-Light', sans-serif;
+  /*font-family: 'Averta-Light', sans-serif;*/
 }
 
 @media screen and (min-width: 320px) {
@@ -949,7 +949,7 @@ li.about-social-item:last-of-type {
 .p-list a div p {
   font-size: 1.142em;
   line-height: 24px;
-  font-family: 'Averta-Light', sans-serif; 
+  /*font-family: 'Averta-Light', sans-serif;*/
 }
 
 @media screen and (max-width: 500px) {
@@ -1045,11 +1045,10 @@ li.about-social-item:last-of-type {
   margin-bottom: 48px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .m-container h3 {
-    /*font-size: 1.714em;*/
     font-size: 1.428em;
-    line-height: 40px;
+    line-height: 32px;
   }
 }
 
@@ -1078,6 +1077,13 @@ li.about-social-item:last-of-type {
   margin-bottom: 48px;
   font-size: 1.071em;
   line-height: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  .m-container p {
+    font-size: 1em;
+    line-height: 24px;
+  }
 }
 
 .me-chilling img {
