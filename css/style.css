@@ -1266,7 +1266,7 @@ section.section-no-padding {
 @media screen and (min-width: 320px) {
   .section-content, .content-list li {
     font-size: 1em;
-    line-height: 1.85;
+    line-height: 2.0;
   }
 }
 
@@ -1280,7 +1280,7 @@ section.section-no-padding {
 @media screen and (min-width: 990px) {
   .section-content, .content-list li {
     font-size: 1.357em;
-    line-height: 1.98;
+    line-height: 2.1;
   }
 }
 
