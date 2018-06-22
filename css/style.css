@@ -1192,36 +1192,33 @@ section.section-no-padding {
 
 @media screen and (min-width: 320px) {
   .section-header {
-    font-size: 36px;
+    font-size: 2.571em;
     line-height: 1.2;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .section-header {
-    font-size: 56px;
+    font-size: 4em;
     line-height: 1.2;
   }
 }
 
 .section-title {
-  /*font-size: 28px;
-  line-height: 1.6;
-  */
   letter-spacing: -.0005em;
   margin: .67em 0;
 }
 
 @media screen and (min-width: 320px) {
   .section-title {
-    font-size: 28px;
+    font-size: 2em;
     line-height: 1.22;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .section-title {
-    font-size: 36px;
+    font-size: 2.571em;
     line-height: 1.22;
   }
 }
@@ -1233,14 +1230,14 @@ section.section-no-padding {
 
 @media screen and (min-width: 320px) {
   .section-little-title {
-    font-size: 20px;
+    font-size: 1.428em;
     line-height: 1.22;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .section-little-title {
-    font-size: 28px;
+    font-size: 2em;
     line-height: 1.22;
   }
 }
@@ -1253,7 +1250,7 @@ section.section-no-padding {
 
 .section-content, .content-list li {
   letter-spacing: -.003em;
-  margin-bottom: 29px;
+  margin-bottom: 32px;
   color: #252B33;
   font-family: 'Averta-Light', sans-serif;
   word-break: break-word;
@@ -1268,21 +1265,21 @@ section.section-no-padding {
 
 @media screen and (min-width: 320px) {
   .section-content, .content-list li {
-    font-size: 14px;
+    font-size: 1em;
     line-height: 1.85;
   }
 }
 
 @media screen and (min-width: 600px) {
   .section-content, .content-list li {
-    font-size: 16px;
+    font-size: 1.142em;
     line-height: 2.0;
   }
 }
 
 @media screen and (min-width: 990px) {
   .section-content, .content-list li {
-    font-size: 19px;
+    font-size: 1.357em;
     line-height: 1.98;
   }
 }
@@ -1481,7 +1478,7 @@ section.section-no-padding {
 
 @media screen and (min-width: 320px) {
   .quote {
-    font-size: 20px;
+    font-size: 1.428em;
     line-height: 1.75em;
     padding: 24px 24px;
   }
@@ -1489,7 +1486,7 @@ section.section-no-padding {
 
 @media screen and (min-width: 1200px) {
   .quote {
-    font-size: 24px;
+    font-size: 1.714em;
     line-height: 1.75em;
     padding: 26px 36px;
   }
@@ -1501,14 +1498,14 @@ section.section-no-padding {
 
 @media screen and (min-width: 320px) {
   .sub-title {
-    font-size: 20px;
+    font-size: 1.428em;
     line-height: 1.3;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .sub-title {
-    font-size: 24px;
+    font-size: 1.714em;
   }
 }
 
@@ -1542,14 +1539,14 @@ section.section-no-padding {
 }
 
 .unfurl-info h4 {
-  font-size: 14px;
+  font-size: 1em;
   line-height: 1.3;
   margin-bottom: 12px;
   font-weight: normal;
 }
 
 .unfurl-info p {
-  font-size: 12px;
+  font-size: 0.857em;
   line-height: 1.3;
   margin-bottom: 12px;
 }
