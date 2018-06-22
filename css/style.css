@@ -1266,14 +1266,21 @@ section.section-no-padding {
 @media screen and (min-width: 320px) {
   .section-content, .content-list li {
     font-size: 1em;
-    line-height: 2.0;
+    line-height: 32px;
   }
 }
 
 @media screen and (min-width: 600px) {
   .section-content, .content-list li {
     font-size: 1.142em;
-    line-height: 2.0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-content, .content-list li {
+    font-size: 1.214em;
+    line-height: 36px;
+
   }
 }
 
