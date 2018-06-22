@@ -479,12 +479,6 @@ nav.dark ul li a {
   font-family: 'Averta-Semibold', sans-serif;
 }
 
-@media screen and (max-width: 599px) {
-  .h-content h1 {
-    font-family: 'Averta-Regular', sans-serif;
-  }
-}
-
 @media screen and (min-width: 320px) {
   .h-content h1 {
     font-size: 3.428em;
@@ -1811,8 +1805,3 @@ img.zoom-img {
 .zoom-overlay-transitioning {
   cursor: default;
 }
-
-
-
-
-
