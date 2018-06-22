@@ -1282,13 +1282,13 @@ section.section-no-padding {
 
 
 /*****Prev & Next****/
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .pagination {
     display: none;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .pagination {
     position: relative;
     z-index: 300;
