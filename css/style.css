@@ -1310,11 +1310,11 @@ section.section-no-padding {
     line-height: 1;
   }
 
-  .pagination-link--prev:hover {
+  .pagination-link-prev:hover {
     left: 0px;
   }
 
-  .pagination-link--prev:hover .pagination-title-wrapper {
+  .pagination-link-prev:hover .pagination-title-wrapper {
     padding: 10px 10px 10px 0;
     -webkit-transform: translate3d(0,-50%,0);
     -moz-transform: translate3d(0,-50%,0);
@@ -1324,11 +1324,11 @@ section.section-no-padding {
     background-color: #000;
   }
 
-  .pagination-link--next:hover {
+  .pagination-link-next:hover {
     right: 0px;
   }
 
-  .pagination-link--next:hover .pagination-title-wrapper {
+  .pagination-link-next:hover .pagination-title-wrapper {
     padding: 10px 10px 10px 0;
     -webkit-transform: translate3d(0,-50%,0);
     -moz-transform: translate3d(0,-50%,0);
@@ -1351,7 +1351,7 @@ section.section-no-padding {
     pointer-events: auto;
   }
 
-  .pagination-link--prev .pagination-title-wrapper {
+  .pagination-link-prev .pagination-title-wrapper {
     left: 0;
     -webkit-transform: translate3d(-30px,-50%,0);
     -moz-transform: translate3d(-30px,-50%,0);
@@ -1360,7 +1360,7 @@ section.section-no-padding {
     transform: translate3d(-30px,-50%,0);
   }
 
-  .pagination-link--next .pagination-title-wrapper {
+  .pagination-link-next .pagination-title-wrapper {
     right: 0;
     -webkit-transform: translate3d(30px,-50%,0);
     -moz-transform: translate3d(30px,-50%,0);
@@ -1391,7 +1391,7 @@ section.section-no-padding {
     cursor: pointer;
   }
 
-  .pagination-link--next {
+  .pagination-link-next {
     left: auto;
     right: -50px;
     text-align: right;
@@ -1415,8 +1415,8 @@ section.section-no-padding {
     pointer-events: auto;
   }
 
-  .pagination-link--prev .pagination-title-wrapper h2,
-  .pagination-link--next .pagination-title-wrapper h2 {
+  .pagination-link-prev .pagination-title-wrapper h2,
+  .pagination-link-next .pagination-title-wrapper h2 {
     text-align: left;
     padding-left: 1em;
     padding-right: 0;
