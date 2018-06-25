@@ -1211,15 +1211,20 @@ section.section-no-padding {
 
 @media screen and (min-width: 320px) {
   .section-title {
-    font-size: 2em;
+    font-size: 1.714em;
     line-height: 1.22;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .section-title {
+    font-size: 2em;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .section-title {
     font-size: 2.571em;
-    line-height: 1.22;
   }
 }
 
