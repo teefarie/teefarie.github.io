@@ -1595,6 +1595,7 @@ section.section-no-padding {
 
 @media screen and (max-width: 989px) {
   .c-s-img {
+    width: 100%;
     margin: 30px auto;
   }
 }
