@@ -5,6 +5,7 @@ $(window).on('load', function() {
     $('body').delay(350).css({'overflow':'visible'});
 })
 
+
 //Back to top
 jQuery(document).ready(function($){
     var offset = 500,
@@ -30,6 +31,7 @@ jQuery(document).ready(function($){
     });
 });
 
+
 //Animation fade in-up
 AOS.init({
   offset: 100,
@@ -40,21 +42,66 @@ AOS.init({
 });
 
 
+//Animate to view when a link tag with an id is being clicked on
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+
+
 //Remove nav when footer is in view
-function checkOffset() {
-    if($('nav').offset().top + $('nav').height() <= $('footer').offset().top - 0)
-    $('nav').css('position', 'absolute');
-    if($(document).scrollTop() + window.innerHeight < $('footer').offset().top)
-    $('nav').css('position', 'fixed');
-}
+var mq = window.matchMedia('@media all and (max-width: 700px)');
+    if(mq.matches) {function checkOffset() {
+        if($('nav').offset().top + $('nav').height() <= $('footer').offset().top - 0)
+        $('nav').css('position', 'absolute');
+        if($(document).scrollTop() + window.innerHeight < $('footer').offset().top)
+        $('nav').css('position', 'fixed');
+    }
+} 
 
 $(document).scroll(function() {
     checkOffset();
 });
 
 
+//Hide div till nav is being clicked on
+jQuery(document).ready(function() {
+    jQuery('#case-studies').hide();
+
+    jQuery('.hide-div-c').click(function(e){
+        e.preventDefault();jQuery("#case-studies").slideToggle();
+        jQuery('.hide-div-c').toggleClass('opened closed');
+    });
+});
+
+jQuery(document).ready(function() {
+    jQuery('#get-in-touch').hide();
+
+    jQuery('.hide-div-g').click(function(e){
+        e.preventDefault();jQuery("#get-in-touch").slideToggle();
+        jQuery('.hide-div-g').toggleClass('opened closed');
+    });
+
+});
+
+
+//Load previous and next button after page load
+$(window).bind("load", function() {
+  $('.pagination').css({'display':'block'});
+});
+
+
+//Close full menu on mobile after clicking link
+/*$(".nav-container ul li a").click(function(){
+    $(".nav-container").css({'display':'none'});
+});*/
+
+
 //Make nav active on scroll to respective divs
-/*$(document).ready(function () {
+$(document).ready(function () {
     $(document).on("scroll", onScroll);
     
     //smoothscroll
@@ -92,37 +139,7 @@ function onScroll(event){
             currLink.removeClass("active");
         }
     });
-}*/
-
-//Animate to view when a link tag with an id is being clicked on
-$(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
-
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 500);
-});
-
-
-//Hide div till nav is being clicked on
-jQuery(document).ready(function() {
-    jQuery('#case-studies').hide();
-
-    jQuery('.hide-div-c').click(function(e){
-        e.preventDefault();jQuery("#case-studies").slideToggle();
-        jQuery('.hide-div-c').toggleClass('opened closed');
-    });
-});
-
-jQuery(document).ready(function() {
-    jQuery('#get-in-touch').hide();
-
-    jQuery('.hide-div-g').click(function(e){
-        e.preventDefault();jQuery("#get-in-touch").slideToggle();
-        jQuery('.hide-div-g').toggleClass('opened closed');
-    });
-
-});
+}
 
 
 
